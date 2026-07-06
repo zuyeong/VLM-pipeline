@@ -1,0 +1,136 @@
+# 사용할 모델들을 지정하는 설정 파일 - 사용할 모델로 바꾸고 실행하기!!!
+models:
+  segmenter:
+    # [WISE] — 다중 객체 모드 (VR-7B 가중치 + WISE 코드 in-process)
+    name: "wise_seg"
+    reasoning_model_path: "/home/cjy/workspace/WISE/VisionReasoner/pretrained_models/VisionReasoner-7B"
+    segmentation_model_path: "facebook/sam2-hiera-large"
+    device: "cuda:1"                     # 멀티 GPU 분리: VR-7B+SAM2 를 GPU1 에 (promptgen 은 GPU0)
+
+    # [GLaMM]
+    # name: "glamm_seg"
+    # version: "/home/cjy/workspace/GLaMM-FullScope"
+
+    # [READ]
+    # name: "read_seg"
+    # pretrained_model_path: "rui-qian/READ-LLaVA-v1.5-13B-for-ReasonSeg-testset"
+
+    # [InstructSeg]
+    # name: "instruct_seg"
+    # model_path: "model/InstructSeg"
+
+    # [PixelLM]
+    # name: "pixellm_seg"
+    # version: "./PixelLM-13B/hf_model"
+
+  inpainter:
+    # [Stable-Diffusion]
+    # name: "sd_inpaint" 
+    # conda_env: "ldm"
+    # script_dir: "/home/cjy/workspace/Stable-Diffusion-Inpaint"
+    # ckpt_path: "models/ldm/inpainting_big/last.ckpt"
+    # yaml_profile: "models/ldm/inpainting_big/config.yaml"
+
+    # # [LaMa]
+    # name: "lama_inpaint"
+    # conda_env: "lama_env"
+    # script_dir: "/home/cjy/workspace/lama/lama_repo"
+    # ckpt_path: "/home/cjy/workspace/lama/big-lama"
+
+    # [MAT]
+    # name: "mat_inpaint"
+    # conda_env: "mat_env"
+    # script_dir: "/home/cjy/workspace/MAT"
+    # ckpt_path: "/home/cjy/workspace/MAT/checkpoints/Places_512_FullData_G.pth"
+
+    # [SDXL — 로컬 diffusers (subprocess) V2] — WebUI 서버 불필요, Only Masked
+    # name: "sdxl_diffusers_inpaint_v2"
+    # conda_env: "flux_inpaint"
+    # model: "diffusers/stable-diffusion-xl-1.0-inpainting-0.1"
+    # prompt: "background"
+    # negative_prompt: "person, figure, woman, man, character"
+    # strength: 0.97                       # Notion denoising_strength
+    # guidance_scale: 7                    # Notion CFG Scale
+    # steps: 20                            # Notion 미명시 → WebUI 기본 유지
+    # seed: -1
+    # inference_size: 1024                 # SDXL native
+    # mask_blur: 9                         # Notion: 9 (Soft Inpainting 페더링 근사)
+    # mask_dilate_px: 10                   # 코드측 dilation (커널 21x21)
+    # inpaint_full_res: true               # WebUI 의 'Inpaint area: Only masked' 기능
+    # inpaint_full_res_padding: 208        # Only masked padding 값
+    # device: "cuda"
+    # cuda_visible_devices: "0"
+
+    # [SDXL — 로컬 diffusers (subprocess)]
+    # name: "sdxl_diffusers_inpaint"
+    # conda_env: "flux_inpaint"
+    # model: "diffusers/stable-diffusion-xl-1.0-inpainting-0.1"
+    # prompt: "background"
+    # negative_prompt: "person, figure, woman, man, character"
+    # strength: 0.97
+    # guidance_scale: 7
+    # steps: 20
+    # seed: -1
+    # inference_size: 1024
+    # mask_blur: 9
+    # mask_dilate_px: 10
+    # device: "cuda"
+    # cuda_visible_devices: "0"
+
+    # [SDXL — 로컬 diffusers IN-PROCESS (B2)] — 서버/서브프로세스 불필요, WebUI 기능 이식
+    #   활성화하려면 아래 sdxl_inpaint(WebUI) 블록을 주석처리하고 이 블록 주석 해제.
+    #   ★ wise env 에 diffusers 필요(설치됨). 출력은 WebUI 와 100% 동일 아님(근사).
+    # name: "sdxl_diffusers_inprocess"
+    # model: "diffusers/stable-diffusion-xl-1.0-inpainting-0.1"
+    # prompt: "background"
+    # negative_prompt: "person, figure, woman, man, character"
+    # scheduler: "dpmpp_2m_karras"          # WebUI 'DPM++ 2M Karras' 이식
+    # steps: 20
+    # guidance_scale: 7
+    # strength: 1.0                          # 누설차단(robust). WebUI패리티 원하면 0.97
+    # seed: -1
+    # inference_size: 1024
+    # mask_dilate_px: 10
+    # fill_mask_holes: true
+    # mask_blur: 4                           # 경계 페더(soft 근사). WebUI는 9
+    # inpainting_fill: "fill"                # WebUI inpainting_fill=0 이식 ('fill'|'original')
+    # soft_inpainting: true                  # 경계 페더 알파합성(근사)
+    # inpaint_full_res: true                 # Only masked
+    # inpaint_full_res_padding: 208
+    # device: "cuda:0"
+    # dtype: "fp16"
+
+    # [SDXL WebUI HTTP 클라이언트 — 서버 가동 필요] — 위 sdxl_diffusers_inpaint 와 택일
+    name: "sdxl_inpaint"
+    api_url: "http://127.0.0.1:7860/sdapi/v1/img2img"
+    sd_model_checkpoint: "sd_xl_inpainting_1.0.safetensors [fe1b97fe65]"
+    prompt: "background"
+    negative_prompt: "person, figure, woman, man, character"
+    sampler_name: "DPM++ 2M"
+    steps: 20
+    cfg_scale: 7
+    seed: -1
+    denoising_strength: 0.97
+    mask_blur: 9
+    inpainting_fill: 0
+    inpaint_full_res: true
+    inpaint_full_res_padding: 208
+    soft_inpainting: true
+    mask_dilate_px: 10
+
+  # ───────────────────────────────────────────────────────────────────────
+  # [0단계] 프롬프트 생성기 — 선택적. 이 섹션을 통째로 주석처리하면 기존 2-stage
+  #         (유저가 프롬프트 직접 입력)로 동작한다 (하위 호환).
+  #         있으면 유저 의도(한글 가능)+이미지 → 영어 VR 프롬프트 자동 생성 후 세그에 주입.
+  # ───────────────────────────────────────────────────────────────────────
+  # promptgen 섹션 비활성화 (2026-06-05, 사용자요청): 훈련 안 된 base Qwen 이 들어가는
+  # 것을 막기 위해 통째로 주석처리. → 파이프라인은 WISE(VR-7B) 세그부터 시작하는
+  # 기존 2-stage(유저가 프롬프트 직접 입력)로 동작한다. LoRA 어댑터 학습/검증 후
+  # 다시 켜려면 아래 주석을 해제하고 adapter 경로를 adapters/v3_combined 로 지정.
+  # promptgen:
+  #   name: "qwen_vl_promptgen"
+  #   base: "/home/cjy/workspace/prompt_model/base/Qwen2.5-VL-7B-Instruct"
+  #   adapter: "/home/cjy/workspace/prompt_model/adapters/v3_combined"   # 켤 때 v3 챔피언 지정
+  #   device: "cuda:0"                     # GPU0 (SDXL 서브프로세스와 동거, 4bit ~6GB)
+  #   quantization: "4bit"
+  #   max_new_tokens: 128

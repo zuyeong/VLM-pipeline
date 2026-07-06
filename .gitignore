@@ -1,0 +1,10 @@
+# 제외할 대용량 폴더 및 임시 파일
+models/
+tmp/
+temp_build/
+Work/
+p_test/
+logs/
+__pycache__/
+*.log
+*.pyc
