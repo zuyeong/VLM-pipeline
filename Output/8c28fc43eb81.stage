@@ -1,1 +1,0 @@
-오류: HTTPConnectionPool(host='127.0.0.1', port=7860): Max retries exceeded with url: /sdapi/v1/img2img (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=7860): Failed to establish a new connection: [Errno 111] Connection refused"))
