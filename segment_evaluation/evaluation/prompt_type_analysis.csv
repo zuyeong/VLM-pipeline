@@ -1,0 +1,16 @@
+﻿Model,Prompt_Type,mIoU,F1_Score,Boundary_IoU,Failure_Rate
+glamm,action,0.7953,0.8316,0.8267,0.0784
+glamm,appearance,0.7695,0.8053,0.7847,0.0702
+glamm,spatial,0.6571,0.6974,0.7085,0.0984
+instructseg,action,0.7106,0.743,0.7525,0.1373
+instructseg,appearance,0.7773,0.8007,0.8015,0.1228
+instructseg,spatial,0.8074,0.8413,0.8292,0.0984
+pixellm,action,0.5951,0.6747,0.6782,0.1569
+pixellm,appearance,0.6348,0.7101,0.6687,0.1404
+pixellm,spatial,0.5796,0.6613,0.665,0.1148
+read,action,0.7419,0.7818,0.7724,0.0588
+read,appearance,0.7428,0.784,0.7429,0.0877
+read,spatial,0.6624,0.7177,0.6904,0.082
+wise,action,0.7981,0.8169,0.8198,0.098
+wise,appearance,0.8008,0.8165,0.8131,0.1404
+wise,spatial,0.8459,0.8781,0.8669,0.0492

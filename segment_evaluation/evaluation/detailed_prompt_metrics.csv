@@ -1,0 +1,846 @@
+﻿Model,Image_Name,Prompt_Type,Prompt_Text,IoU,F1_Score,Boundary_IoU,GT_Path,Pred_Path
+glamm,yong_01,appearance,the woman in white clothes and dark pants,0.9689,0.9842,0.9631,gt_masks/person/yong_01_person_1.png,results_glamm/person/yong_01_person_1_appearance_1.png
+glamm,yong_01,spatial,the foreground human figure,0.9559,0.9775,0.9489,gt_masks/person/yong_01_person_1.png,results_glamm/person/yong_01_person_1_spatial_2.png
+glamm,yong_01,spatial,the foreground woman on the left side,0.9467,0.9726,0.9357,gt_masks/person/yong_01_person_1.png,results_glamm/person/yong_01_person_1_spatial_3.png
+glamm,yong_01,action,the standing woman near the left foreground,0.9499,0.9743,0.9395,gt_masks/person/yong_01_person_1.png,results_glamm/person/yong_01_person_1_action_4.png
+glamm,yong_01,appearance,the background masked woman,0.412,0.5835,0.3409,gt_masks/person/yong_01_person_2.png,results_glamm/person/yong_01_person_2_appearance_1.png
+glamm,yong_01,spatial,the background human figure,0.2272,0.3703,0.3035,gt_masks/person/yong_01_person_2.png,results_glamm/person/yong_01_person_2_spatial_2.png
+glamm,yong_01,spatial,the background masked woman near the center-right,0.9145,0.9553,0.9562,gt_masks/person/yong_01_person_2.png,results_glamm/person/yong_01_person_2_spatial_3.png
+glamm,yong_01,action,the walking masked woman in the mid-background,0.9178,0.9571,0.9676,gt_masks/person/yong_01_person_2.png,results_glamm/person/yong_01_person_2_action_4.png
+glamm,yong_02,appearance,the woman in white clothes and dark pants,0.8993,0.947,0.9624,gt_masks/person/yong_02_person_1.png,results_glamm/person/yong_02_person_1_appearance_1.png
+glamm,yong_02,spatial,the visible human figure,0.8984,0.9465,0.962,gt_masks/person/yong_02_person_1.png,results_glamm/person/yong_02_person_1_spatial_2.png
+glamm,yong_02,action,the woman walking in side view,0.9031,0.9491,0.9638,gt_masks/person/yong_02_person_1.png,results_glamm/person/yong_02_person_1_action_3.png
+glamm,yong_02,action,the walking woman facing right,0.9027,0.9488,0.9631,gt_masks/person/yong_02_person_1.png,results_glamm/person/yong_02_person_1_action_4.png
+glamm,yong_03,appearance,the woman in white clothes and dark pants,0.9505,0.9746,0.9542,gt_masks/person/yong_03_person_1.png,results_glamm/person/yong_03_person_1_appearance_1.png
+glamm,yong_03,spatial,the visible human figure,0.9554,0.9772,0.9577,gt_masks/person/yong_03_person_1.png,results_glamm/person/yong_03_person_1_spatial_2.png
+glamm,yong_03,action,the foreground woman making a peace sign,0.9431,0.9707,0.9449,gt_masks/person/yong_03_person_1.png,results_glamm/person/yong_03_person_1_action_3.png
+glamm,yong_03,action,the woman posing near the left side,0.9537,0.9763,0.9582,gt_masks/person/yong_03_person_1.png,results_glamm/person/yong_03_person_1_action_4.png
+glamm,yong_04,appearance,the woman in white clothes and dark pants,0.0006,0.0011,0.0608,gt_masks/person/yong_04_person_1.png,results_glamm/person/yong_04_person_1_appearance_1.png
+glamm,yong_04,spatial,the foreground human figure,0.9479,0.9733,0.9544,gt_masks/person/yong_04_person_1.png,results_glamm/person/yong_04_person_1_spatial_2.png
+glamm,yong_04,action,the foreground woman making a peace sign on the left,0.9303,0.9639,0.9393,gt_masks/person/yong_04_person_1.png,results_glamm/person/yong_04_person_1_action_3.png
+glamm,yong_04,action,the posed woman near the left foreground,0.9361,0.967,0.9443,gt_masks/person/yong_04_person_1.png,results_glamm/person/yong_04_person_1_action_4.png
+glamm,yong_04,appearance,the background masked woman,0.9325,0.9651,0.9787,gt_masks/person/yong_04_person_2.png,results_glamm/person/yong_04_person_2_appearance_1.png
+glamm,yong_04,spatial,the middle human figure,0.9187,0.9576,0.9775,gt_masks/person/yong_04_person_2.png,results_glamm/person/yong_04_person_2_spatial_2.png
+glamm,yong_04,action,the walking masked woman near the center,0.9271,0.9622,0.9791,gt_masks/person/yong_04_person_2.png,results_glamm/person/yong_04_person_2_action_3.png
+glamm,yong_04,action,the center walking woman,0.9205,0.9586,0.9763,gt_masks/person/yong_04_person_2.png,results_glamm/person/yong_04_person_2_action_4.png
+glamm,yong_04,action,the walking man on the right side,0.9,0.9474,0.9643,gt_masks/person/yong_04_person_3.png,results_glamm/person/yong_04_person_3_action_1.png
+glamm,yong_04,spatial,the right-side human figure,0.9056,0.9505,0.9674,gt_masks/person/yong_04_person_3.png,results_glamm/person/yong_04_person_3_spatial_2.png
+glamm,yong_05,appearance,the woman in white clothes and dark pants,0.0,0.0,0.0,gt_masks/person/yong_05_person_1.png,results_glamm/person/yong_05_person_1_appearance_1.png
+glamm,yong_05,spatial,the cropped human figure,0.0124,0.0245,0.1417,gt_masks/person/yong_05_person_1.png,results_glamm/person/yong_05_person_1_spatial_2.png
+glamm,yong_05,spatial,the partially visible woman at the far left edge,0.0,0.0,0.0055,gt_masks/person/yong_05_person_2.png,results_glamm/person/yong_05_person_2_spatial_1.png
+glamm,yong_05,spatial,the cropped woman on the left border,0.0,0.0,0.0,gt_masks/person/yong_05_person_2.png,results_glamm/person/yong_05_person_2_spatial_2.png
+glamm,yong_06,appearance,the walking man in a black top and light blue jeans,0.938,0.968,0.9628,gt_masks/person/yong_06_person_5.png,results_glamm/person/yong_06_person_5_appearance_1.png
+glamm,yong_06,appearance,the visible male figure,0.9403,0.9692,0.9649,gt_masks/person/yong_06_person_5.png,results_glamm/person/yong_06_person_5_appearance_2.png
+glamm,yong_06,action,the man walking toward the right side,0.9373,0.9676,0.9618,gt_masks/person/yong_06_person_5.png,results_glamm/person/yong_06_person_5_action_3.png
+glamm,yong_06,spatial,the man near the left-center area,0.9369,0.9674,0.9608,gt_masks/person/yong_06_person_5.png,results_glamm/person/yong_06_person_5_spatial_4.png
+glamm,yong_06,spatial,the partially visible person at the far left edge,0.0,0.0,0.0567,gt_masks/person/yong_06_person_4.png,results_glamm/person/yong_06_person_4_spatial_1.png
+glamm,yong_06,spatial,the cropped person on the left border,0.0,0.0,0.0552,gt_masks/person/yong_06_person_4.png,results_glamm/person/yong_06_person_4_spatial_2.png
+glamm,yong_06,spatial,the partially visible woman at the far left edge,0.0,0.0,0.0571,gt_masks/person/yong_06_person_4.png,results_glamm/person/yong_06_person_4_spatial_3.png
+glamm,yong_06,spatial,the cropped woman on the left border,0.0,0.0,0.0547,gt_masks/person/yong_06_person_4.png,results_glamm/person/yong_06_person_4_spatial_4.png
+glamm,yong_07,appearance,the woman in white clothes and dark pants,0.9432,0.9708,0.9539,gt_masks/person/yong_07_person_1.png,results_glamm/person/yong_07_person_1_appearance_1.png
+glamm,yong_07,spatial,the partially visible woman at the far left edge,0.9451,0.9718,0.9584,gt_masks/person/yong_07_person_1.png,results_glamm/person/yong_07_person_1_spatial_2.png
+glamm,yong_07,spatial,the cropped woman on the left border,0.94,0.969,0.955,gt_masks/person/yong_07_person_1.png,results_glamm/person/yong_07_person_1_spatial_3.png
+glamm,road_01,appearance,the woman in white clothes and dark pants,0.9211,0.959,0.9654,gt_masks/person/road_01_person_1.png,results_glamm/person/road_01_person_1_appearance_1.png
+glamm,road_01,action,the woman raising both arms to make a V pose,0.9095,0.9526,0.9606,gt_masks/person/road_01_person_1.png,results_glamm/person/road_01_person_1_action_2.png
+glamm,road_01,spatial,the front-facing woman,0.9212,0.959,0.9634,gt_masks/person/road_01_person_1.png,results_glamm/person/road_01_person_1_spatial_3.png
+glamm,road_02,appearance,the woman in white clothes and dark pants,0.9172,0.9568,0.9689,gt_masks/person/road_02_person_1.png,results_glamm/person/road_02_person_1_appearance_1.png
+glamm,road_02,action,the woman standing and making a V pose with both arms,0.9132,0.9546,0.9682,gt_masks/person/road_02_person_1.png,results_glamm/person/road_02_person_1_action_2.png
+glamm,road_02,appearance,the person with messy black hair wearing a black long-sleeve top and light blue jeans,0.9345,0.9662,0.9821,gt_masks/person/road_02_person_2.png,results_glamm/person/road_02_person_2_appearance_1.png
+glamm,road_02,spatial,the person on the left side of the center line with their back to the camera,0.9189,0.9578,0.9754,gt_masks/person/road_02_person_2.png,results_glamm/person/road_02_person_2_spatial_2.png
+glamm,road_02,action,the person walking or running away,0.9367,0.9673,0.9804,gt_masks/person/road_02_person_2.png,results_glamm/person/road_02_person_2_action_3.png
+glamm,road_03,appearance,the woman in white clothes and dark pants,0.9057,0.9505,0.9683,gt_masks/person/road_03_person_1.png,results_glamm/person/road_03_person_1_appearance_1.png
+glamm,road_03,action,the smiling woman making a V pose with her right arm raised highest,0.8988,0.9467,0.9703,gt_masks/person/road_03_person_1.png,results_glamm/person/road_03_person_1_action_2.png
+glamm,road_03,spatial,the woman slightly turned to the front,0.8963,0.9453,0.9668,gt_masks/person/road_03_person_1.png,results_glamm/person/road_03_person_1_spatial_3.png
+glamm,road_03,appearance,the person wearing a black long-sleeve top and light blue jeans,0.8542,0.9214,0.944,gt_masks/person/road_03_person_2.png,results_glamm/person/road_03_person_2_appearance_1.png
+glamm,road_03,spatial,the person far away on the left side of the center line,0.8591,0.9242,0.9405,gt_masks/person/road_03_person_2.png,results_glamm/person/road_03_person_2_spatial_2.png
+glamm,road_03,action,the person walking towards the camera,0.0,0.0,0.0,gt_masks/person/road_03_person_2.png,results_glamm/person/road_03_person_2_action_3.png
+glamm,road_04,appearance,the woman in white clothes and dark pants,0.93,0.9637,0.9741,gt_masks/person/road_04_person_1.png,results_glamm/person/road_04_person_1_appearance_1.png
+glamm,road_04,action,the woman with her left arm slightly bent,0.9415,0.9699,0.9749,gt_masks/person/road_04_person_1.png,results_glamm/person/road_04_person_1_action_2.png
+glamm,road_04,spatial,the woman turned towards the back-left showing her side and back,0.5522,0.7115,0.5972,gt_masks/person/road_04_person_1.png,results_glamm/person/road_04_person_1_spatial_3.png
+glamm,road_04,appearance,the person with dark hair wearing a light long-sleeve top and loose dark pants,0.8751,0.9334,0.9621,gt_masks/person/road_04_person_3.png,results_glamm/person/road_04_person_3_appearance_1.png
+glamm,road_04,spatial,the person on the left side of the center line with their back to the camera,0.8749,0.9333,0.9636,gt_masks/person/road_04_person_3.png,results_glamm/person/road_04_person_3_spatial_2.png
+glamm,road_04,action,the person running forward,0.5135,0.6785,0.4125,gt_masks/person/road_04_person_3.png,results_glamm/person/road_04_person_3_action_3.png
+glamm,road_04,appearance,the person in a black long-sleeve top and light blue jeans,0.9367,0.9673,0.9763,gt_masks/person/road_04_person_2.png,results_glamm/person/road_04_person_2_appearance_1.png
+glamm,road_04,spatial,the person on the right edge near the bushes,0.9412,0.9697,0.982,gt_masks/person/road_04_person_2.png,results_glamm/person/road_04_person_2_spatial_2.png
+glamm,road_04,action,the person walking inwards in side view,0.0028,0.0056,0.1029,gt_masks/person/road_04_person_2.png,results_glamm/person/road_04_person_2_action_3.png
+glamm,road_05,appearance,the woman in white clothes and dark pants,0.7894,0.8823,0.6219,gt_masks/person/road_05_person_1.png,results_glamm/person/road_05_person_1_appearance_1.png
+glamm,road_05,action,the smiling woman raising one hand above her head,0.8938,0.9439,0.9519,gt_masks/person/road_05_person_1.png,results_glamm/person/road_05_person_1_action_2.png
+glamm,road_05,spatial,the woman facing the camera,0.9054,0.9503,0.9587,gt_masks/person/road_05_person_1.png,results_glamm/person/road_05_person_1_spatial_3.png
+glamm,road_05,appearance,"the person with dark hair wearing a light long-sleeve top, loose dark pants, and a mask",0.9313,0.9644,0.981,gt_masks/person/road_05_person_3.png,results_glamm/person/road_05_person_3_appearance_1.png
+glamm,road_05,action,the person lightly running or walking towards the camera,0.0,0.0,0.0,gt_masks/person/road_05_person_3.png,results_glamm/person/road_05_person_3_action_2.png
+glamm,road_06,appearance,the woman in white clothes and dark pants,0.9398,0.9689,0.9609,gt_masks/person/road_06_person_1.png,results_glamm/person/road_06_person_1_appearance_1.png
+glamm,road_06,action,the woman looking up at the trees and sky with both arms down,0.9417,0.97,0.9617,gt_masks/person/road_06_person_1.png,results_glamm/person/road_06_person_1_action_2.png
+glamm,road_06,appearance,the person wearing brown pants,0.929,0.9632,0.5884,gt_masks/person/road_06_person_3.png,results_glamm/person/road_06_person_3_appearance_1.png
+glamm,road_06,spatial,the partially visible person at the far left edge,0.2455,0.3943,0.2663,gt_masks/person/road_06_person_3.png,results_glamm/person/road_06_person_3_spatial_2.png
+glamm,road_06,appearance,the person wearing a dark top and light pants,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,results_glamm/person/road_06_person_2_appearance_1.png
+glamm,road_06,action,the person walking along the road,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,results_glamm/person/road_06_person_2_action_2.png
+glamm,road_07,appearance,the woman in white clothes and dark pants,0.9088,0.9522,0.9634,gt_masks/person/road_07_person_1.png,results_glamm/person/road_07_person_1_appearance_1.png
+glamm,road_07,action,the front-facing woman with arms spread wide to the sides,0.9077,0.9516,0.9632,gt_masks/person/road_07_person_1.png,results_glamm/person/road_07_person_1_action_2.png
+glamm,road_07,appearance,"the person wearing a light shirt, dark pants, and a black bag",0.9071,0.9513,0.8179,gt_masks/person/road_07_person_4.png,results_glamm/person/road_07_person_4_appearance_1.png
+glamm,road_07,spatial,the person with their back to the camera,0.0522,0.0992,0.2167,gt_masks/person/road_07_person_4.png,results_glamm/person/road_07_person_4_spatial_2.png
+glamm,road_07,action,the person walking away,0.9301,0.9638,0.8531,gt_masks/person/road_07_person_4.png,results_glamm/person/road_07_person_4_action_3.png
+glamm,road_07,appearance,the person wearing a dark top and dark bottom,0.0046,0.0092,0.173,gt_masks/person/road_07_person_5.png,results_glamm/person/road_07_person_5_appearance_1.png
+glamm,road_07,spatial,the person in back view,0.0119,0.0234,0.2066,gt_masks/person/road_07_person_5.png,results_glamm/person/road_07_person_5_spatial_2.png
+glamm,road_07,action,the person walking away from the camera,0.0,0.0,0.05,gt_masks/person/road_07_person_5.png,results_glamm/person/road_07_person_5_action_3.png
+glamm,road_08,appearance,the woman in white clothes and dark pants,0.934,0.9659,0.9526,gt_masks/person/road_08_person_1.png,results_glamm/person/road_08_person_1_appearance_1.png
+glamm,road_08,action,the front-facing woman raising her left hand to flip her hair,0.9306,0.9641,0.9493,gt_masks/person/road_08_person_1.png,results_glamm/person/road_08_person_1_action_2.png
+glamm,road_08,spatial,the person in back view,0.0001,0.0002,0.0947,gt_masks/person/road_08_person_4.png,results_glamm/person/road_08_person_4_spatial_1.png
+glamm,road_08,action,the person walking away along the road,0.8672,0.9289,0.9562,gt_masks/person/road_08_person_4.png,results_glamm/person/road_08_person_4_action_2.png
+glamm,road_08,appearance,the person wearing a light top and dark bottom,0.0,0.0,0.0569,gt_masks/person/road_08_person_4.png,results_glamm/person/road_08_person_4_appearance_3.png
+glamm,road_08,spatial,the person in back view,0.0001,0.0002,0.0947,gt_masks/person/road_08_person_4.png,results_glamm/person/road_08_person_4_spatial_4.png
+glamm,road_08,action,the person walking away,0.857,0.923,0.9603,gt_masks/person/road_08_person_4.png,results_glamm/person/road_08_person_4_action_5.png
+glamm,road_09,spatial,the person in back view,0.8738,0.9327,0.9854,gt_masks/person/road_09_person_4.png,results_glamm/person/road_09_person_4_spatial_1.png
+glamm,road_09,action,the person walking away,0.8782,0.9352,0.9802,gt_masks/person/road_09_person_4.png,results_glamm/person/road_09_person_4_action_2.png
+glamm,road_09,spatial,the farthest person in back view,0.8744,0.933,0.9806,gt_masks/person/road_09_person_4.png,results_glamm/person/road_09_person_4_spatial_3.png
+glamm,road_09,action,the person walking away along the road,0.8802,0.9363,0.98,gt_masks/person/road_09_person_4.png,results_glamm/person/road_09_person_4_action_4.png
+glamm,road_10,appearance,the motorcyclist with a delivery box,0.2477,0.397,0.4355,gt_masks/person/road_10_person_6.png,results_glamm/person/road_10_person_6_appearance_1.png
+glamm,road_10,spatial,the motorcyclist on the center-left,0.2303,0.3743,0.4321,gt_masks/person/road_10_person_6.png,results_glamm/person/road_10_person_6_spatial_2.png
+glamm,road_10,action,the motorcyclist riding downhill,0.2361,0.3819,0.4349,gt_masks/person/road_10_person_6.png,results_glamm/person/road_10_person_6_action_3.png
+glamm,road_10,spatial,the person far away in back view,0.0294,0.0571,0.1838,gt_masks/person/road_10_person_5.png,results_glamm/person/road_10_person_5_spatial_1.png
+glamm,road_11,appearance,the motorcyclist with a delivery box,0.9221,0.9595,0.9727,gt_masks/person/road_11_person_6.png,results_glamm/person/road_11_person_6_appearance_1.png
+glamm,road_11,spatial,the motorcyclist in the center of the road,0.9214,0.9591,0.9732,gt_masks/person/road_11_person_6.png,results_glamm/person/road_11_person_6_spatial_2.png
+glamm,road_11,action,the motorcyclist riding downhill,0.9103,0.953,0.9659,gt_masks/person/road_11_person_6.png,results_glamm/person/road_11_person_6_action_3.png
+glamm,road_12,spatial,the person in back view,0.9148,0.9555,0.9629,gt_masks/person/road_12_person_7.png,results_glamm/person/road_12_person_7_spatial_1.png
+glamm,road_12,action,the walking person,0.9267,0.962,0.9758,gt_masks/person/road_12_person_7.png,results_glamm/person/road_12_person_7_action_2.png
+glamm,statue_01,action,the person making V-sign hand gestures,0.9489,0.9738,0.9626,gt_masks/person/statue_01_person_1.png,results_glamm/person/statue_01_person_1_action_1.png
+glamm,statue_01,appearance,the person wearing a white long-sleeved cardigan,0.9493,0.974,0.9611,gt_masks/person/statue_01_person_1.png,results_glamm/person/statue_01_person_1_appearance_2.png
+glamm,statue_01,spatial,the person in a full-body standing posture,0.952,0.9754,0.9638,gt_masks/person/statue_01_person_1.png,results_glamm/person/statue_01_person_1_spatial_3.png
+glamm,statue_02,appearance,the person with long straight black hair,0.9009,0.9479,0.7025,gt_masks/person/statue_02_person_1.png,results_glamm/person/statue_02_person_1_appearance_1.png
+glamm,statue_02,action,the person making dual V-sign hand gestures,0.9557,0.9773,0.9588,gt_masks/person/statue_02_person_1.png,results_glamm/person/statue_02_person_1_action_2.png
+glamm,statue_02,appearance,the person with short black hair,0.9564,0.9777,0.9749,gt_masks/person/statue_02_person_2.png,results_glamm/person/statue_02_person_2_appearance_1.png
+glamm,statue_02,appearance,the person wearing a black long-sleeved sweater,0.9503,0.9745,0.9728,gt_masks/person/statue_02_person_2.png,results_glamm/person/statue_02_person_2_appearance_2.png
+glamm,statue_03,appearance,the person with long straight black hair,0.9502,0.9745,0.9518,gt_masks/person/statue_03_person_1.png,results_glamm/person/statue_03_person_1_appearance_1.png
+glamm,statue_03,action,the person making dual V-sign hand gestures,0.9514,0.9751,0.9614,gt_masks/person/statue_03_person_1.png,results_glamm/person/statue_03_person_1_action_2.png
+glamm,statue_03,appearance,a partial limb and foot wearing a white sneaker,0.8991,0.9469,0.9777,gt_masks/person/statue_03_person_2.png,results_glamm/person/statue_03_person_2_appearance_1.png
+glamm,statue_04,action,the person making V-sign hand gestures,0.9508,0.9748,0.9637,gt_masks/person/statue_04_person_1.png,results_glamm/person/statue_04_person_1_action_1.png
+glamm,statue_04,appearance,the person wearing a white long-sleeved cardigan,0.956,0.9775,0.9639,gt_masks/person/statue_04_person_1.png,results_glamm/person/statue_04_person_1_appearance_2.png
+glamm,statue_04,spatial,the person with long brown hair seen from the back,0.9579,0.9785,0.8239,gt_masks/person/statue_04_person_3.png,results_glamm/person/statue_04_person_3_spatial_1.png
+glamm,statue_04,appearance,the person wearing a beige or light pink long-sleeved top,0.9584,0.9787,0.8239,gt_masks/person/statue_04_person_3.png,results_glamm/person/statue_04_person_3_appearance_2.png
+glamm,statue_05,spatial,the partially occluded person,0.0556,0.1053,0.5141,gt_masks/person/statue_05_person_3.png,results_glamm/person/statue_05_person_3_spatial_1.png
+glamm,statue_05,spatial,the person with long brown hair visible behind the main subject's head,0.2149,0.3538,0.5527,gt_masks/person/statue_05_person_3.png,results_glamm/person/statue_05_person_3_spatial_2.png
+glamm,statue_06,appearance,close-up hand segments are blurring into the lens,0.9412,0.9697,0.9507,gt_masks/person/statue_06_person_4.png,results_glamm/person/statue_06_person_4_appearance_1.png
+glamm,statue_06,spatial,a finger on the left side of the screen,0.9424,0.9704,0.9543,gt_masks/person/statue_06_person_4.png,results_glamm/person/statue_06_person_4_spatial_2.png
+glamm,statue_07,spatial,the person in a full-body standing posture,0.9657,0.9825,0.9514,gt_masks/person/statue_07_person_1.png,results_glamm/person/statue_07_person_1_spatial_1.png
+glamm,statue_07,action,the young woman holding a smartphone in her right hand,0.9622,0.9807,0.9485,gt_masks/person/statue_07_person_1.png,results_glamm/person/statue_07_person_1_action_2.png
+glamm,statue_07,appearance,the woman wearing a white long-sleeved cardigan,0.964,0.9817,0.9504,gt_masks/person/statue_07_person_1.png,results_glamm/person/statue_07_person_1_appearance_3.png
+glamm,statue_07,appearance,a blurry skin-toned artifact in the upper-left corner,0.3459,0.514,0.3216,gt_masks/person/statue_07_person_4.png,results_glamm/person/statue_07_person_4_appearance_1.png
+glamm,statue_07,spatial,out-of-focus fingertip or hand segment is encroaching from the top-left edge,0.3781,0.5487,0.1872,gt_masks/person/statue_07_person_4.png,results_glamm/person/statue_07_person_4_spatial_2.png
+glamm,statue_08,action,the young woman holding a smartphone in her right hand,0.9574,0.9782,0.9479,gt_masks/person/statue_08_person_1.png,results_glamm/person/statue_08_person_1_action_1.png
+glamm,statue_08,appearance,the woman wearing a white long-sleeved cardigan,0.9538,0.9763,0.9443,gt_masks/person/statue_08_person_1.png,results_glamm/person/statue_08_person_1_appearance_2.png
+glamm,statue_09,spatial,the woman in an upper body shot,0.9582,0.9786,0.8823,gt_masks/person/statue_09_person_1.png,results_glamm/person/statue_09_person_1_spatial_1.png
+glamm,statue_09,appearance,the woman with long straight black hair,0.9596,0.9794,0.8896,gt_masks/person/statue_09_person_1.png,results_glamm/person/statue_09_person_1_appearance_2.png
+glamm,statue_09,appearance,the woman wearing a white long-sleeved cardigan,0.9634,0.9814,0.8884,gt_masks/person/statue_09_person_1.png,results_glamm/person/statue_09_person_1_appearance_3.png
+glamm,statue_10,spatial,"the woman in a full-body shot, positioned in the lower-left foreground",0.9228,0.9599,0.945,gt_masks/person/statue_10_person_1.png,results_glamm/person/statue_10_person_1_spatial_1.png
+glamm,statue_10,appearance,the woman with long straight black hair,0.9392,0.9686,0.9575,gt_masks/person/statue_10_person_1.png,results_glamm/person/statue_10_person_1_appearance_2.png
+glamm,statue_10,appearance,the woman wearing a white long-sleeved cardigan,0.9309,0.9642,0.9521,gt_masks/person/statue_10_person_1.png,results_glamm/person/statue_10_person_1_appearance_3.png
+glamm,statue_10,spatial,"the woman standing on a wide, light-colored tiled plaza",0.9341,0.9659,0.9528,gt_masks/person/statue_10_person_1.png,results_glamm/person/statue_10_person_1_spatial_4.png
+glamm,field_01,spatial,the woman in the central foreground,0.9532,0.9761,0.9645,gt_masks/person/field_01_person_1.png,results_glamm/person/field_01_person_1_spatial_1.png
+glamm,field_01,appearance,the woman in white top and grey flare jeans,0.9609,0.9801,0.9701,gt_masks/person/field_01_person_1.png,results_glamm/person/field_01_person_1_appearance_2.png
+glamm,field_01,action,the woman standing still and smiling,0.9581,0.9786,0.9671,gt_masks/person/field_01_person_1.png,results_glamm/person/field_01_person_1_action_3.png
+glamm,field_01,spatial,the background figure on the right side,0.9013,0.9481,0.9697,gt_masks/person/field_01_person_2.png,results_glamm/person/field_01_person_2_spatial_1.png
+glamm,field_01,appearance,the woman in beige top and brown pants,0.902,0.9485,0.9692,gt_masks/person/field_01_person_2.png,results_glamm/person/field_01_person_2_appearance_2.png
+glamm,field_01,action,the woman walking across the field,0.9392,0.9686,0.9787,gt_masks/person/field_01_person_2.png,results_glamm/person/field_01_person_2_action_3.png
+glamm,field_02,spatial,the central figure facing the camera,0.9607,0.9799,0.9655,gt_masks/person/field_02_person_1.png,results_glamm/person/field_02_person_1_spatial_1.png
+glamm,field_02,appearance,the woman in a white button-down shirt,0.9611,0.9802,0.966,gt_masks/person/field_02_person_1.png,results_glamm/person/field_02_person_1_appearance_2.png
+glamm,field_02,action,the woman standing with a neutral expression,0.9615,0.9804,0.966,gt_masks/person/field_02_person_1.png,results_glamm/person/field_02_person_1_action_3.png
+glamm,field_02,spatial,the person in the middle ground on the left,0.8689,0.9298,0.966,gt_masks/person/field_02_person_2.png,results_glamm/person/field_02_person_2_spatial_1.png
+glamm,field_02,appearance,the woman with long hair in partial profile,0.0237,0.0463,0.2656,gt_masks/person/field_02_person_2.png,results_glamm/person/field_02_person_2_appearance_2.png
+glamm,field_02,action,the woman walking away from the camera,0.8333,0.909,0.7853,gt_masks/person/field_02_person_2.png,results_glamm/person/field_02_person_2_action_3.png
+glamm,field_03,spatial,the woman in the center of the turf,0.931,0.9643,0.95,gt_masks/person/field_03_person_1.png,results_glamm/person/field_03_person_1_spatial_1.png
+glamm,field_03,appearance,the woman with long hair flowing down,0.9509,0.9748,0.9672,gt_masks/person/field_03_person_1.png,results_glamm/person/field_03_person_1_appearance_2.png
+glamm,field_03,action,the woman shielding her eyes with her hand,0.943,0.9707,0.9614,gt_masks/person/field_03_person_1.png,results_glamm/person/field_03_person_1_action_3.png
+glamm,field_05,spatial,the woman on the far-left edge,0.9695,0.9845,0.9743,gt_masks/person/field_05_person_3.png,results_glamm/person/field_05_person_3_spatial_1.png
+glamm,field_05,appearance,the observer in a light light blue cardigan,0.0,0.0,0.0,gt_masks/person/field_05_person_3.png,results_glamm/person/field_05_person_3_appearance_2.png
+glamm,field_05,spatial,the young man in the center-left,0.9469,0.9727,0.9674,gt_masks/person/field_05_person_4.png,results_glamm/person/field_05_person_4_spatial_1.png
+glamm,field_05,appearance,the man in a black sweatshirt and jeans,0.943,0.9707,0.9702,gt_masks/person/field_05_person_4.png,results_glamm/person/field_05_person_4_appearance_2.png
+glamm,field_05,spatial,the seated woman in the foreground,0.9562,0.9776,0.963,gt_masks/person/field_05_person_1.png,results_glamm/person/field_05_person_1_spatial_1.png
+glamm,field_05,action,the woman making a V sign with her hand,0.9664,0.9829,0.8891,gt_masks/person/field_05_person_1.png,results_glamm/person/field_05_person_1_action_2.png
+glamm,field_06,spatial,the woman sitting in the foreground,0.9604,0.9798,0.8924,gt_masks/person/field_06_person_1.png,results_glamm/person/field_06_person_1_spatial_1.png
+glamm,field_06,appearance,the woman in white knit and charcoal jeans,0.0075,0.0149,0.2436,gt_masks/person/field_06_person_1.png,results_glamm/person/field_06_person_1_appearance_2.png
+glamm,field_06,action,the woman tilting her head with a smile,0.963,0.9812,0.9673,gt_masks/person/field_06_person_1.png,results_glamm/person/field_06_person_1_action_3.png
+glamm,field_06,spatial,the masked figure standing directly behind,0.9412,0.9697,0.9569,gt_masks/person/field_06_person_2.png,results_glamm/person/field_06_person_2_spatial_1.png
+glamm,field_06,appearance,the woman in a tan sweatshirt and brown pants,0.9387,0.9684,0.9564,gt_masks/person/field_06_person_2.png,results_glamm/person/field_06_person_2_appearance_2.png
+glamm,field_06,action,the woman shielding her forehead,0.9456,0.9721,0.9573,gt_masks/person/field_06_person_2.png,results_glamm/person/field_06_person_2_action_3.png
+glamm,field_07,spatial,the figure at the bottom-center,0.9625,0.9809,0.909,gt_masks/person/field_07_person_1.png,results_glamm/person/field_07_person_1_spatial_1.png
+glamm,field_07,appearance,the woman with hair covering her face,0.9651,0.9823,0.9228,gt_masks/person/field_07_person_1.png,results_glamm/person/field_07_person_1_appearance_2.png
+glamm,field_07,action,the woman moving her upper body quickly,0.0105,0.0207,0.182,gt_masks/person/field_07_person_1.png,results_glamm/person/field_07_person_1_action_3.png
+glamm,field_07,spatial,the person in the middle ground behind,0.0055,0.0109,0.1896,gt_masks/person/field_07_person_2.png,results_glamm/person/field_07_person_2_spatial_1.png
+glamm,field_07,appearance,the masked woman in a beige sweatshirt,0.9149,0.9555,0.9058,gt_masks/person/field_07_person_2.png,results_glamm/person/field_07_person_2_appearance_2.png
+glamm,field_07,action,the woman in a mock-fighting stance,0.9172,0.9568,0.9115,gt_masks/person/field_07_person_2.png,results_glamm/person/field_07_person_2_action_3.png
+glamm,field_08,spatial,"half-visible person at left edge, cropped view.",0.9144,0.9553,0.8715,gt_masks/person/field_08_person_2.png,results_glamm/person/field_08_person_2_spatial_1.png
+instructseg,yong_01,appearance,the woman in white clothes and dark pants,0.9651,0.9823,0.9595,gt_masks/person/yong_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_01_person_1_appearance_1.png
+instructseg,yong_01,spatial,the foreground human figure,0.9766,0.9881,0.9742,gt_masks/person/yong_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_01_person_1_spatial_2.png
+instructseg,yong_01,spatial,the foreground woman on the left side,0.9661,0.9828,0.961,gt_masks/person/yong_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_01_person_1_spatial_3.png
+instructseg,yong_01,action,the standing woman near the left foreground,0.9661,0.9828,0.9607,gt_masks/person/yong_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_01_person_1_action_4.png
+instructseg,yong_01,appearance,the background masked woman,0.9687,0.9841,0.9847,gt_masks/person/yong_01_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_01_person_2_appearance_1.png
+instructseg,yong_01,spatial,the background human figure,0.9671,0.9833,0.9868,gt_masks/person/yong_01_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_01_person_2_spatial_2.png
+instructseg,yong_01,spatial,the background masked woman near the center-right,0.9647,0.9821,0.9811,gt_masks/person/yong_01_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_01_person_2_spatial_3.png
+instructseg,yong_01,action,the walking masked woman in the mid-background,0.965,0.9822,0.9885,gt_masks/person/yong_01_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_01_person_2_action_4.png
+instructseg,yong_02,appearance,the woman in white clothes and dark pants,0.958,0.9786,0.9806,gt_masks/person/yong_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_02_person_1_appearance_1.png
+instructseg,yong_02,spatial,the visible human figure,0.9626,0.981,0.9832,gt_masks/person/yong_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_02_person_1_spatial_2.png
+instructseg,yong_02,action,the woman walking in side view,0.9606,0.9799,0.9835,gt_masks/person/yong_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_02_person_1_action_3.png
+instructseg,yong_02,action,the walking woman facing right,0.9628,0.9811,0.9831,gt_masks/person/yong_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_02_person_1_action_4.png
+instructseg,yong_03,appearance,the woman in white clothes and dark pants,0.9775,0.9886,0.9743,gt_masks/person/yong_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_03_person_1_appearance_1.png
+instructseg,yong_03,spatial,the visible human figure,0.9704,0.985,0.9684,gt_masks/person/yong_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_03_person_1_spatial_2.png
+instructseg,yong_03,action,the foreground woman making a peace sign,0.9699,0.9847,0.9679,gt_masks/person/yong_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_03_person_1_action_3.png
+instructseg,yong_03,action,the woman posing near the left side,0.9768,0.9883,0.9734,gt_masks/person/yong_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_03_person_1_action_4.png
+instructseg,yong_04,appearance,the woman in white clothes and dark pants,0.9718,0.9857,0.961,gt_masks/person/yong_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_1_appearance_1.png
+instructseg,yong_04,spatial,the foreground human figure,0.9721,0.9859,0.9615,gt_masks/person/yong_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_1_spatial_2.png
+instructseg,yong_04,action,the foreground woman making a peace sign on the left,0.9719,0.9857,0.9609,gt_masks/person/yong_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_1_action_3.png
+instructseg,yong_04,action,the posed woman near the left foreground,0.9724,0.986,0.9617,gt_masks/person/yong_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_1_action_4.png
+instructseg,yong_04,appearance,the background masked woman,0.9542,0.9766,0.9814,gt_masks/person/yong_04_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_2_appearance_1.png
+instructseg,yong_04,spatial,the middle human figure,0.9476,0.9731,0.9818,gt_masks/person/yong_04_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_2_spatial_2.png
+instructseg,yong_04,action,the walking masked woman near the center,0.9542,0.9766,0.9789,gt_masks/person/yong_04_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_2_action_3.png
+instructseg,yong_04,action,the center walking woman,0.9539,0.9764,0.9787,gt_masks/person/yong_04_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_2_action_4.png
+instructseg,yong_04,action,the walking man on the right side,0.9501,0.9744,0.9755,gt_masks/person/yong_04_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_3_action_1.png
+instructseg,yong_04,spatial,the right-side human figure,0.0,0.0,0.0,gt_masks/person/yong_04_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/yong_04_person_3_spatial_2.png
+instructseg,yong_05,appearance,the woman in white clothes and dark pants,0.9725,0.9861,0.9718,gt_masks/person/yong_05_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_05_person_1_appearance_1.png
+instructseg,yong_05,spatial,the cropped human figure,0.9755,0.9876,0.9728,gt_masks/person/yong_05_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_05_person_1_spatial_2.png
+instructseg,yong_05,spatial,the partially visible woman at the far left edge,0.0,0.0,0.0,gt_masks/person/yong_05_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_05_person_2_spatial_1.png
+instructseg,yong_05,spatial,the cropped woman on the left border,0.0,0.0,0.0,gt_masks/person/yong_05_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/yong_05_person_2_spatial_2.png
+instructseg,yong_06,appearance,the walking man in a black top and light blue jeans,0.9695,0.9845,0.9781,gt_masks/person/yong_06_person_5.png,/home/cjy/workspace/segment/results_instructseg/person/yong_06_person_5_appearance_1.png
+instructseg,yong_06,appearance,the visible male figure,0.9688,0.9841,0.9786,gt_masks/person/yong_06_person_5.png,/home/cjy/workspace/segment/results_instructseg/person/yong_06_person_5_appearance_2.png
+instructseg,yong_06,action,the man walking toward the right side,0.9695,0.9845,0.9784,gt_masks/person/yong_06_person_5.png,/home/cjy/workspace/segment/results_instructseg/person/yong_06_person_5_action_3.png
+instructseg,yong_06,spatial,the man near the left-center area,0.9692,0.9844,0.9779,gt_masks/person/yong_06_person_5.png,/home/cjy/workspace/segment/results_instructseg/person/yong_06_person_5_spatial_4.png
+instructseg,yong_06,spatial,the partially visible person at the far left edge,0.8952,0.9447,0.9681,gt_masks/person/yong_06_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/yong_06_person_4_spatial_1.png
+instructseg,yong_06,spatial,the cropped person on the left border,0.9052,0.9502,0.9647,gt_masks/person/yong_06_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/yong_06_person_4_spatial_2.png
+instructseg,yong_06,spatial,the partially visible woman at the far left edge,0.8752,0.9334,0.9602,gt_masks/person/yong_06_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/yong_06_person_4_spatial_3.png
+instructseg,yong_06,spatial,the cropped woman on the left border,0.9049,0.9501,0.9648,gt_masks/person/yong_06_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/yong_06_person_4_spatial_4.png
+instructseg,yong_07,appearance,the woman in white clothes and dark pants,0.968,0.9837,0.969,gt_masks/person/yong_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_07_person_1_appearance_1.png
+instructseg,yong_07,spatial,the partially visible woman at the far left edge,0.963,0.9812,0.9683,gt_masks/person/yong_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_07_person_1_spatial_2.png
+instructseg,yong_07,spatial,the cropped woman on the left border,0.9604,0.9798,0.9821,gt_masks/person/yong_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/yong_07_person_1_spatial_3.png
+instructseg,road_01,appearance,the woman in white clothes and dark pants,0.9588,0.979,0.9757,gt_masks/person/road_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_01_person_1_appearance_1.png
+instructseg,road_01,action,the woman raising both arms to make a V pose,0.9574,0.9782,0.9757,gt_masks/person/road_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_01_person_1_action_2.png
+instructseg,road_01,spatial,the front-facing woman,0.9645,0.9819,0.981,gt_masks/person/road_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_01_person_1_spatial_3.png
+instructseg,road_02,appearance,the woman in white clothes and dark pants,0.9562,0.9776,0.9696,gt_masks/person/road_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_02_person_1_appearance_1.png
+instructseg,road_02,action,the woman standing and making a V pose with both arms,0.9642,0.9818,0.9713,gt_masks/person/road_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_02_person_1_action_2.png
+instructseg,road_02,appearance,the person with messy black hair wearing a black long-sleeve top and light blue jeans,0.9613,0.9803,0.9866,gt_masks/person/road_02_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_02_person_2_appearance_1.png
+instructseg,road_02,spatial,the person on the left side of the center line with their back to the camera,0.9592,0.9792,0.9878,gt_masks/person/road_02_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_02_person_2_spatial_2.png
+instructseg,road_02,action,the person walking or running away,0.9622,0.9807,0.9878,gt_masks/person/road_02_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_02_person_2_action_3.png
+instructseg,road_03,appearance,the woman in white clothes and dark pants,0.9085,0.9521,0.8742,gt_masks/person/road_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_03_person_1_appearance_1.png
+instructseg,road_03,action,the smiling woman making a V pose with her right arm raised highest,0.9292,0.9633,0.8796,gt_masks/person/road_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_03_person_1_action_2.png
+instructseg,road_03,spatial,the woman slightly turned to the front,0.9078,0.9517,0.8731,gt_masks/person/road_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_03_person_1_spatial_3.png
+instructseg,road_03,appearance,the person wearing a black long-sleeve top and light blue jeans,0.8861,0.9396,0.9608,gt_masks/person/road_03_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_03_person_2_appearance_1.png
+instructseg,road_03,spatial,the person far away on the left side of the center line,0.9132,0.9546,0.9718,gt_masks/person/road_03_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_03_person_2_spatial_2.png
+instructseg,road_03,action,the person walking towards the camera,0.0,0.0,0.0,gt_masks/person/road_03_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_03_person_2_action_3.png
+instructseg,road_04,appearance,the woman in white clothes and dark pants,0.9635,0.9814,0.9846,gt_masks/person/road_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_1_appearance_1.png
+instructseg,road_04,action,the woman with her left arm slightly bent,0.0,0.0,0.0,gt_masks/person/road_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_1_action_2.png
+instructseg,road_04,spatial,the woman turned towards the back-left showing her side and back,0.9662,0.9828,0.9873,gt_masks/person/road_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_1_spatial_3.png
+instructseg,road_04,appearance,the person with dark hair wearing a light long-sleeve top and loose dark pants,0.9274,0.9623,0.9442,gt_masks/person/road_04_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_3_appearance_1.png
+instructseg,road_04,spatial,the person on the left side of the center line with their back to the camera,0.9271,0.9622,0.9442,gt_masks/person/road_04_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_3_spatial_2.png
+instructseg,road_04,action,the person running forward,0.0,0.0,0.0,gt_masks/person/road_04_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_3_action_3.png
+instructseg,road_04,appearance,the person in a black long-sleeve top and light blue jeans,0.0,0.0,0.0,gt_masks/person/road_04_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_2_appearance_1.png
+instructseg,road_04,spatial,the person on the right edge near the bushes,0.9367,0.9673,0.9825,gt_masks/person/road_04_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_2_spatial_2.png
+instructseg,road_04,action,the person walking inwards in side view,0.0,0.0,0.0,gt_masks/person/road_04_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_04_person_2_action_3.png
+instructseg,road_05,appearance,the woman in white clothes and dark pants,0.0,0.0,0.0,gt_masks/person/road_05_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_05_person_1_appearance_1.png
+instructseg,road_05,action,the smiling woman raising one hand above her head,0.9402,0.9692,0.9756,gt_masks/person/road_05_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_05_person_1_action_2.png
+instructseg,road_05,spatial,the woman facing the camera,0.0,0.0,0.0,gt_masks/person/road_05_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_05_person_1_spatial_3.png
+instructseg,road_05,appearance,"the person with dark hair wearing a light long-sleeve top, loose dark pants, and a mask",0.9509,0.9748,0.9849,gt_masks/person/road_05_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/road_05_person_3_appearance_1.png
+instructseg,road_05,action,the person lightly running or walking towards the camera,0.9512,0.975,0.9856,gt_masks/person/road_05_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/road_05_person_3_action_2.png
+instructseg,road_06,appearance,the woman in white clothes and dark pants,0.9663,0.9828,0.9747,gt_masks/person/road_06_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_06_person_1_appearance_1.png
+instructseg,road_06,action,the woman looking up at the trees and sky with both arms down,0.9655,0.9825,0.9724,gt_masks/person/road_06_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_06_person_1_action_2.png
+instructseg,road_06,appearance,the person wearing brown pants,0.9719,0.9857,0.9894,gt_masks/person/road_06_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/road_06_person_3_appearance_1.png
+instructseg,road_06,spatial,the partially visible person at the far left edge,0.971,0.9853,0.9894,gt_masks/person/road_06_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/road_06_person_3_spatial_2.png
+instructseg,road_06,appearance,the person wearing a dark top and light pants,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_06_person_2_appearance_1.png
+instructseg,road_06,action,the person walking along the road,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/road_06_person_2_action_2.png
+instructseg,road_07,appearance,the woman in white clothes and dark pants,0.9528,0.9759,0.9797,gt_masks/person/road_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_07_person_1_appearance_1.png
+instructseg,road_07,action,the front-facing woman with arms spread wide to the sides,0.9569,0.978,0.9797,gt_masks/person/road_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_07_person_1_action_2.png
+instructseg,road_07,appearance,"the person wearing a light shirt, dark pants, and a black bag",0.9418,0.97,0.9827,gt_masks/person/road_07_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_07_person_4_appearance_1.png
+instructseg,road_07,spatial,the person with their back to the camera,0.0,0.0,0.0,gt_masks/person/road_07_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_07_person_4_spatial_2.png
+instructseg,road_07,action,the person walking away,0.9583,0.9787,0.9825,gt_masks/person/road_07_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_07_person_4_action_3.png
+instructseg,road_07,appearance,the person wearing a dark top and dark bottom,0.0,0.0,0.0491,gt_masks/person/road_07_person_5.png,/home/cjy/workspace/segment/results_instructseg/person/road_07_person_5_appearance_1.png
+instructseg,road_07,spatial,the person in back view,0.0,0.0,0.0506,gt_masks/person/road_07_person_5.png,/home/cjy/workspace/segment/results_instructseg/person/road_07_person_5_spatial_2.png
+instructseg,road_07,action,the person walking away from the camera,0.0,0.0,0.0654,gt_masks/person/road_07_person_5.png,/home/cjy/workspace/segment/results_instructseg/person/road_07_person_5_action_3.png
+instructseg,road_08,appearance,the woman in white clothes and dark pants,0.9535,0.9762,0.9731,gt_masks/person/road_08_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_08_person_1_appearance_1.png
+instructseg,road_08,action,the front-facing woman raising her left hand to flip her hair,0.9415,0.9699,0.9664,gt_masks/person/road_08_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/road_08_person_1_action_2.png
+instructseg,road_08,spatial,the person in back view,0.8962,0.9452,0.977,gt_masks/person/road_08_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_08_person_4_spatial_1.png
+instructseg,road_08,action,the person walking away along the road,0.547,0.7072,0.5719,gt_masks/person/road_08_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_08_person_4_action_2.png
+instructseg,road_08,appearance,the person wearing a light top and dark bottom,0.0,0.0,0.0563,gt_masks/person/road_08_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_08_person_4_appearance_3.png
+instructseg,road_08,spatial,the person in back view,0.8962,0.9452,0.977,gt_masks/person/road_08_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_08_person_4_spatial_4.png
+instructseg,road_08,action,the person walking away,0.6332,0.7754,0.5796,gt_masks/person/road_08_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_08_person_4_action_5.png
+instructseg,road_09,spatial,the person in back view,0.5494,0.7092,0.5583,gt_masks/person/road_09_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_09_person_4_spatial_1.png
+instructseg,road_09,action,the person walking away,0.5705,0.7265,0.8259,gt_masks/person/road_09_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_09_person_4_action_2.png
+instructseg,road_09,spatial,the farthest person in back view,0.3347,0.5015,0.4495,gt_masks/person/road_09_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_09_person_4_spatial_3.png
+instructseg,road_09,action,the person walking away along the road,0.5696,0.7258,0.8259,gt_masks/person/road_09_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/road_09_person_4_action_4.png
+instructseg,road_10,appearance,the motorcyclist with a delivery box,0.268,0.4227,0.4616,gt_masks/person/road_10_person_6.png,/home/cjy/workspace/segment/results_instructseg/person/road_10_person_6_appearance_1.png
+instructseg,road_10,spatial,the motorcyclist on the center-left,0.2785,0.4356,0.4615,gt_masks/person/road_10_person_6.png,/home/cjy/workspace/segment/results_instructseg/person/road_10_person_6_spatial_2.png
+instructseg,road_10,action,the motorcyclist riding downhill,0.2658,0.42,0.4602,gt_masks/person/road_10_person_6.png,/home/cjy/workspace/segment/results_instructseg/person/road_10_person_6_action_3.png
+instructseg,road_10,spatial,the person far away in back view,0.8533,0.9209,0.9838,gt_masks/person/road_10_person_5.png,/home/cjy/workspace/segment/results_instructseg/person/road_10_person_5_spatial_1.png
+instructseg,road_11,appearance,the motorcyclist with a delivery box,0.1575,0.2721,0.4968,gt_masks/person/road_11_person_6.png,/home/cjy/workspace/segment/results_instructseg/person/road_11_person_6_appearance_1.png
+instructseg,road_11,spatial,the motorcyclist in the center of the road,0.1585,0.2736,0.4946,gt_masks/person/road_11_person_6.png,/home/cjy/workspace/segment/results_instructseg/person/road_11_person_6_spatial_2.png
+instructseg,road_11,action,the motorcyclist riding downhill,0.1637,0.2813,0.4989,gt_masks/person/road_11_person_6.png,/home/cjy/workspace/segment/results_instructseg/person/road_11_person_6_action_3.png
+instructseg,road_12,spatial,the person in back view,0.9585,0.9788,0.978,gt_masks/person/road_12_person_7.png,/home/cjy/workspace/segment/results_instructseg/person/road_12_person_7_spatial_1.png
+instructseg,road_12,action,the walking person,0.9595,0.9793,0.9804,gt_masks/person/road_12_person_7.png,/home/cjy/workspace/segment/results_instructseg/person/road_12_person_7_action_2.png
+instructseg,statue_01,action,the person making V-sign hand gestures,0.9656,0.9825,0.9784,gt_masks/person/statue_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_01_person_1_action_1.png
+instructseg,statue_01,appearance,the person wearing a white long-sleeved cardigan,0.9662,0.9828,0.9792,gt_masks/person/statue_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_01_person_1_appearance_2.png
+instructseg,statue_01,spatial,the person in a full-body standing posture,0.9309,0.9642,0.9477,gt_masks/person/statue_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_01_person_1_spatial_3.png
+instructseg,statue_02,appearance,the person with long straight black hair,0.9487,0.9736,0.9531,gt_masks/person/statue_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_02_person_1_appearance_1.png
+instructseg,statue_02,action,the person making dual V-sign hand gestures,0.9569,0.978,0.9614,gt_masks/person/statue_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_02_person_1_action_2.png
+instructseg,statue_02,appearance,the person with short black hair,0.0,0.0,0.0,gt_masks/person/statue_02_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/statue_02_person_2_appearance_1.png
+instructseg,statue_02,appearance,the person wearing a black long-sleeved sweater,0.9653,0.9823,0.9788,gt_masks/person/statue_02_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/statue_02_person_2_appearance_2.png
+instructseg,statue_03,appearance,the person with long straight black hair,0.9572,0.9781,0.9679,gt_masks/person/statue_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_03_person_1_appearance_1.png
+instructseg,statue_03,action,the person making dual V-sign hand gestures,0.9581,0.9786,0.9686,gt_masks/person/statue_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_03_person_1_action_2.png
+instructseg,statue_03,appearance,a partial limb and foot wearing a white sneaker,0.874,0.9328,0.9772,gt_masks/person/statue_03_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/statue_03_person_2_appearance_1.png
+instructseg,statue_04,action,the person making V-sign hand gestures,0.9505,0.9746,0.9647,gt_masks/person/statue_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_04_person_1_action_1.png
+instructseg,statue_04,appearance,the person wearing a white long-sleeved cardigan,0.9354,0.9666,0.957,gt_masks/person/statue_04_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_04_person_1_appearance_2.png
+instructseg,statue_04,spatial,the person with long brown hair seen from the back,0.9766,0.9882,0.9223,gt_masks/person/statue_04_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/statue_04_person_3_spatial_1.png
+instructseg,statue_04,appearance,the person wearing a beige or light pink long-sleeved top,0.979,0.9894,0.926,gt_masks/person/statue_04_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/statue_04_person_3_appearance_2.png
+instructseg,statue_05,spatial,the partially occluded person,0.8223,0.9025,0.7612,gt_masks/person/statue_05_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/statue_05_person_3_spatial_1.png
+instructseg,statue_05,spatial,the person with long brown hair visible behind the main subject's head,0.8356,0.9104,0.756,gt_masks/person/statue_05_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/statue_05_person_3_spatial_2.png
+instructseg,statue_06,appearance,close-up hand segments are blurring into the lens,0.9028,0.9489,0.8554,gt_masks/person/statue_06_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/statue_06_person_4_appearance_1.png
+instructseg,statue_06,spatial,a finger on the left side of the screen,0.9116,0.9537,0.8616,gt_masks/person/statue_06_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/statue_06_person_4_spatial_2.png
+instructseg,statue_07,spatial,the person in a full-body standing posture,0.9623,0.9808,0.9543,gt_masks/person/statue_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_07_person_1_spatial_1.png
+instructseg,statue_07,action,the young woman holding a smartphone in her right hand,0.9657,0.9825,0.9647,gt_masks/person/statue_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_07_person_1_action_2.png
+instructseg,statue_07,appearance,the woman wearing a white long-sleeved cardigan,0.9628,0.981,0.9625,gt_masks/person/statue_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_07_person_1_appearance_3.png
+instructseg,statue_07,appearance,a blurry skin-toned artifact in the upper-left corner,0.9396,0.9688,0.8743,gt_masks/person/statue_07_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/statue_07_person_4_appearance_1.png
+instructseg,statue_07,spatial,out-of-focus fingertip or hand segment is encroaching from the top-left edge,0.9324,0.965,0.88,gt_masks/person/statue_07_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/statue_07_person_4_spatial_2.png
+instructseg,statue_08,action,the young woman holding a smartphone in her right hand,0.9662,0.9828,0.955,gt_masks/person/statue_08_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_08_person_1_action_1.png
+instructseg,statue_08,appearance,the woman wearing a white long-sleeved cardigan,0.9607,0.98,0.9538,gt_masks/person/statue_08_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_08_person_1_appearance_2.png
+instructseg,statue_09,spatial,the woman in an upper body shot,0.9671,0.9833,0.9112,gt_masks/person/statue_09_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_09_person_1_spatial_1.png
+instructseg,statue_09,appearance,the woman with long straight black hair,0.9668,0.9831,0.91,gt_masks/person/statue_09_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_09_person_1_appearance_2.png
+instructseg,statue_09,appearance,the woman wearing a white long-sleeved cardigan,0.9589,0.979,0.8727,gt_masks/person/statue_09_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_09_person_1_appearance_3.png
+instructseg,statue_10,spatial,"the woman in a full-body shot, positioned in the lower-left foreground",0.956,0.9775,0.973,gt_masks/person/statue_10_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_10_person_1_spatial_1.png
+instructseg,statue_10,appearance,the woman with long straight black hair,0.9545,0.9767,0.9709,gt_masks/person/statue_10_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_10_person_1_appearance_2.png
+instructseg,statue_10,appearance,the woman wearing a white long-sleeved cardigan,0.9614,0.9803,0.9766,gt_masks/person/statue_10_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_10_person_1_appearance_3.png
+instructseg,statue_10,spatial,"the woman standing on a wide, light-colored tiled plaza",0.9535,0.9762,0.9697,gt_masks/person/statue_10_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/statue_10_person_1_spatial_4.png
+instructseg,field_01,spatial,the woman in the central foreground,0.9713,0.9855,0.9765,gt_masks/person/field_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_01_person_1_spatial_1.png
+instructseg,field_01,appearance,the woman in white top and grey flare jeans,0.9719,0.9857,0.9771,gt_masks/person/field_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_01_person_1_appearance_2.png
+instructseg,field_01,action,the woman standing still and smiling,0.9727,0.9862,0.9776,gt_masks/person/field_01_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_01_person_1_action_3.png
+instructseg,field_01,spatial,the background figure on the right side,0.9556,0.9773,0.9821,gt_masks/person/field_01_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_01_person_2_spatial_1.png
+instructseg,field_01,appearance,the woman in beige top and brown pants,0.9544,0.9767,0.9819,gt_masks/person/field_01_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_01_person_2_appearance_2.png
+instructseg,field_01,action,the woman walking across the field,0.0,0.0,0.0,gt_masks/person/field_01_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_01_person_2_action_3.png
+instructseg,field_02,spatial,the central figure facing the camera,0.9701,0.9848,0.9752,gt_masks/person/field_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_02_person_1_spatial_1.png
+instructseg,field_02,appearance,the woman in a white button-down shirt,0.9715,0.9855,0.9758,gt_masks/person/field_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_02_person_1_appearance_2.png
+instructseg,field_02,action,the woman standing with a neutral expression,0.0001,0.0003,0.238,gt_masks/person/field_02_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_02_person_1_action_3.png
+instructseg,field_02,spatial,the person in the middle ground on the left,0.8905,0.9421,0.9663,gt_masks/person/field_02_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_02_person_2_spatial_1.png
+instructseg,field_02,appearance,the woman with long hair in partial profile,0.0046,0.0091,0.2457,gt_masks/person/field_02_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_02_person_2_appearance_2.png
+instructseg,field_02,action,the woman walking away from the camera,0.0039,0.0077,0.2448,gt_masks/person/field_02_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_02_person_2_action_3.png
+instructseg,field_03,spatial,the woman in the center of the turf,0.9525,0.9757,0.9758,gt_masks/person/field_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_03_person_1_spatial_1.png
+instructseg,field_03,appearance,the woman with long hair flowing down,0.9454,0.9719,0.9762,gt_masks/person/field_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_03_person_1_appearance_2.png
+instructseg,field_03,action,the woman shielding her eyes with her hand,0.9511,0.975,0.9763,gt_masks/person/field_03_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_03_person_1_action_3.png
+instructseg,field_05,spatial,the woman on the far-left edge,0.9676,0.9835,0.9714,gt_masks/person/field_05_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/field_05_person_3_spatial_1.png
+instructseg,field_05,appearance,the observer in a light light blue cardigan,0.0,0.0,0.0,gt_masks/person/field_05_person_3.png,/home/cjy/workspace/segment/results_instructseg/person/field_05_person_3_appearance_2.png
+instructseg,field_05,spatial,the young man in the center-left,0.9723,0.986,0.9855,gt_masks/person/field_05_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/field_05_person_4_spatial_1.png
+instructseg,field_05,appearance,the man in a black sweatshirt and jeans,0.9703,0.9849,0.9831,gt_masks/person/field_05_person_4.png,/home/cjy/workspace/segment/results_instructseg/person/field_05_person_4_appearance_2.png
+instructseg,field_05,spatial,the seated woman in the foreground,0.9636,0.9815,0.9721,gt_masks/person/field_05_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_05_person_1_spatial_1.png
+instructseg,field_05,action,the woman making a V sign with her hand,0.9609,0.9801,0.9679,gt_masks/person/field_05_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_05_person_1_action_2.png
+instructseg,field_06,spatial,the woman sitting in the foreground,0.9619,0.9806,0.9652,gt_masks/person/field_06_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_06_person_1_spatial_1.png
+instructseg,field_06,appearance,the woman in white knit and charcoal jeans,0.9648,0.9821,0.9655,gt_masks/person/field_06_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_06_person_1_appearance_2.png
+instructseg,field_06,action,the woman tilting her head with a smile,0.8857,0.9394,0.9217,gt_masks/person/field_06_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_06_person_1_action_3.png
+instructseg,field_06,spatial,the masked figure standing directly behind,0.9514,0.9751,0.9447,gt_masks/person/field_06_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_06_person_2_spatial_1.png
+instructseg,field_06,appearance,the woman in a tan sweatshirt and brown pants,0.9469,0.9727,0.939,gt_masks/person/field_06_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_06_person_2_appearance_2.png
+instructseg,field_06,action,the woman shielding her forehead,0.9515,0.9751,0.9451,gt_masks/person/field_06_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_06_person_2_action_3.png
+instructseg,field_07,spatial,the figure at the bottom-center,0.9656,0.9825,0.9281,gt_masks/person/field_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_07_person_1_spatial_1.png
+instructseg,field_07,appearance,the woman with hair covering her face,0.0206,0.0404,0.2001,gt_masks/person/field_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_07_person_1_appearance_2.png
+instructseg,field_07,action,the woman moving her upper body quickly,0.0175,0.0344,0.1979,gt_masks/person/field_07_person_1.png,/home/cjy/workspace/segment/results_instructseg/person/field_07_person_1_action_3.png
+instructseg,field_07,spatial,the person in the middle ground behind,0.9241,0.9605,0.9424,gt_masks/person/field_07_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_07_person_2_spatial_1.png
+instructseg,field_07,appearance,the masked woman in a beige sweatshirt,0.9237,0.9603,0.941,gt_masks/person/field_07_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_07_person_2_appearance_2.png
+instructseg,field_07,action,the woman in a mock-fighting stance,0.9236,0.9603,0.941,gt_masks/person/field_07_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_07_person_2_action_3.png
+instructseg,field_08,spatial,"half-visible person at left edge, cropped view.",0.9096,0.9527,0.8542,gt_masks/person/field_08_person_2.png,/home/cjy/workspace/segment/results_instructseg/person/field_08_person_2_spatial_1.png
+pixellm,yong_01,appearance,the woman in white clothes and dark pants,0.9099,0.9528,0.8946,gt_masks/person/yong_01_person_1.png,results_pixellm/person/yong_01_person_1_appearance_1.png
+pixellm,yong_01,spatial,the foreground human figure,0.9051,0.9502,0.8881,gt_masks/person/yong_01_person_1.png,results_pixellm/person/yong_01_person_1_spatial_2.png
+pixellm,yong_01,spatial,the foreground woman on the left side,0.9067,0.951,0.8905,gt_masks/person/yong_01_person_1.png,results_pixellm/person/yong_01_person_1_spatial_3.png
+pixellm,yong_01,action,the standing woman near the left foreground,0.9098,0.9528,0.8945,gt_masks/person/yong_01_person_1.png,results_pixellm/person/yong_01_person_1_action_4.png
+pixellm,yong_01,appearance,the background masked woman,0.7468,0.855,0.8886,gt_masks/person/yong_01_person_2.png,results_pixellm/person/yong_01_person_2_appearance_1.png
+pixellm,yong_01,spatial,the background human figure,0.7543,0.8599,0.897,gt_masks/person/yong_01_person_2.png,results_pixellm/person/yong_01_person_2_spatial_2.png
+pixellm,yong_01,spatial,the background masked woman near the center-right,0.7487,0.8563,0.8935,gt_masks/person/yong_01_person_2.png,results_pixellm/person/yong_01_person_2_spatial_3.png
+pixellm,yong_01,action,the walking masked woman in the mid-background,0.7529,0.859,0.8956,gt_masks/person/yong_01_person_2.png,results_pixellm/person/yong_01_person_2_action_4.png
+pixellm,yong_02,appearance,the woman in white clothes and dark pants,0.7552,0.8606,0.8745,gt_masks/person/yong_02_person_1.png,results_pixellm/person/yong_02_person_1_appearance_1.png
+pixellm,yong_02,spatial,the visible human figure,0.7542,0.8599,0.8741,gt_masks/person/yong_02_person_1.png,results_pixellm/person/yong_02_person_1_spatial_2.png
+pixellm,yong_02,action,the woman walking in side view,0.7526,0.8589,0.8731,gt_masks/person/yong_02_person_1.png,results_pixellm/person/yong_02_person_1_action_3.png
+pixellm,yong_02,action,the walking woman facing right,0.7522,0.8586,0.8733,gt_masks/person/yong_02_person_1.png,results_pixellm/person/yong_02_person_1_action_4.png
+pixellm,yong_03,appearance,the woman in white clothes and dark pants,0.8937,0.9439,0.8768,gt_masks/person/yong_03_person_1.png,results_pixellm/person/yong_03_person_1_appearance_1.png
+pixellm,yong_03,spatial,the visible human figure,0.8924,0.9431,0.8737,gt_masks/person/yong_03_person_1.png,results_pixellm/person/yong_03_person_1_spatial_2.png
+pixellm,yong_03,action,the foreground woman making a peace sign,0.8953,0.9448,0.8792,gt_masks/person/yong_03_person_1.png,results_pixellm/person/yong_03_person_1_action_3.png
+pixellm,yong_03,action,the woman posing near the left side,0.8932,0.9436,0.8734,gt_masks/person/yong_03_person_1.png,results_pixellm/person/yong_03_person_1_action_4.png
+pixellm,yong_04,appearance,the woman in white clothes and dark pants,0.8958,0.945,0.8838,gt_masks/person/yong_04_person_1.png,results_pixellm/person/yong_04_person_1_appearance_1.png
+pixellm,yong_04,spatial,the foreground human figure,0.8914,0.9426,0.8792,gt_masks/person/yong_04_person_1.png,results_pixellm/person/yong_04_person_1_spatial_2.png
+pixellm,yong_04,action,the foreground woman making a peace sign on the left,0.8967,0.9455,0.8835,gt_masks/person/yong_04_person_1.png,results_pixellm/person/yong_04_person_1_action_3.png
+pixellm,yong_04,action,the posed woman near the left foreground,0.8975,0.946,0.8872,gt_masks/person/yong_04_person_1.png,results_pixellm/person/yong_04_person_1_action_4.png
+pixellm,yong_04,appearance,the background masked woman,0.7234,0.8395,0.8989,gt_masks/person/yong_04_person_2.png,results_pixellm/person/yong_04_person_2_appearance_1.png
+pixellm,yong_04,spatial,the middle human figure,0.7276,0.8423,0.9037,gt_masks/person/yong_04_person_2.png,results_pixellm/person/yong_04_person_2_spatial_2.png
+pixellm,yong_04,action,the walking masked woman near the center,0.7285,0.8429,0.9005,gt_masks/person/yong_04_person_2.png,results_pixellm/person/yong_04_person_2_action_3.png
+pixellm,yong_04,action,the center walking woman,0.713,0.8325,0.8984,gt_masks/person/yong_04_person_2.png,results_pixellm/person/yong_04_person_2_action_4.png
+pixellm,yong_04,action,the walking man on the right side,0.7946,0.8855,0.9231,gt_masks/person/yong_04_person_3.png,results_pixellm/person/yong_04_person_3_action_1.png
+pixellm,yong_04,spatial,the right-side human figure,0.7946,0.8855,0.9262,gt_masks/person/yong_04_person_3.png,results_pixellm/person/yong_04_person_3_spatial_2.png
+pixellm,yong_05,appearance,the woman in white clothes and dark pants,0.0003,0.0005,0.0278,gt_masks/person/yong_05_person_1.png,results_pixellm/person/yong_05_person_1_appearance_1.png
+pixellm,yong_05,spatial,the cropped human figure,0.0,0.0,0.0,gt_masks/person/yong_05_person_1.png,results_pixellm/person/yong_05_person_1_spatial_2.png
+pixellm,yong_05,spatial,the partially visible woman at the far left edge,0.0,0.0,0.0,gt_masks/person/yong_05_person_2.png,results_pixellm/person/yong_05_person_2_spatial_1.png
+pixellm,yong_05,spatial,the cropped woman on the left border,0.0,0.0,0.0,gt_masks/person/yong_05_person_2.png,results_pixellm/person/yong_05_person_2_spatial_2.png
+pixellm,yong_06,appearance,the walking man in a black top and light blue jeans,0.7871,0.8809,0.8651,gt_masks/person/yong_06_person_5.png,results_pixellm/person/yong_06_person_5_appearance_1.png
+pixellm,yong_06,appearance,the visible male figure,0.7857,0.88,0.855,gt_masks/person/yong_06_person_5.png,results_pixellm/person/yong_06_person_5_appearance_2.png
+pixellm,yong_06,action,the man walking toward the right side,0.787,0.8808,0.8593,gt_masks/person/yong_06_person_5.png,results_pixellm/person/yong_06_person_5_action_3.png
+pixellm,yong_06,spatial,the man near the left-center area,0.7823,0.8778,0.8489,gt_masks/person/yong_06_person_5.png,results_pixellm/person/yong_06_person_5_spatial_4.png
+pixellm,yong_06,spatial,the partially visible person at the far left edge,0.1962,0.3281,0.2233,gt_masks/person/yong_06_person_4.png,results_pixellm/person/yong_06_person_4_spatial_1.png
+pixellm,yong_06,spatial,the cropped person on the left border,0.0224,0.0438,0.1948,gt_masks/person/yong_06_person_4.png,results_pixellm/person/yong_06_person_4_spatial_2.png
+pixellm,yong_06,spatial,the partially visible woman at the far left edge,0.277,0.4338,0.26,gt_masks/person/yong_06_person_4.png,results_pixellm/person/yong_06_person_4_spatial_3.png
+pixellm,yong_06,spatial,the cropped woman on the left border,0.0373,0.072,0.1972,gt_masks/person/yong_06_person_4.png,results_pixellm/person/yong_06_person_4_spatial_4.png
+pixellm,yong_07,appearance,the woman in white clothes and dark pants,0.8359,0.9106,0.9059,gt_masks/person/yong_07_person_1.png,results_pixellm/person/yong_07_person_1_appearance_1.png
+pixellm,yong_07,spatial,the partially visible woman at the far left edge,0.816,0.8987,0.8905,gt_masks/person/yong_07_person_1.png,results_pixellm/person/yong_07_person_1_spatial_2.png
+pixellm,yong_07,spatial,the cropped woman on the left border,0.8267,0.9052,0.8984,gt_masks/person/yong_07_person_1.png,results_pixellm/person/yong_07_person_1_spatial_3.png
+pixellm,road_01,appearance,the woman in white clothes and dark pants,0.7563,0.8612,0.8456,gt_masks/person/road_01_person_1.png,results_pixellm/person/road_01_person_1_appearance_1.png
+pixellm,road_01,action,the woman raising both arms to make a V pose,0.7796,0.8762,0.8615,gt_masks/person/road_01_person_1.png,results_pixellm/person/road_01_person_1_action_2.png
+pixellm,road_01,spatial,the front-facing woman,0.7423,0.8521,0.8247,gt_masks/person/road_01_person_1.png,results_pixellm/person/road_01_person_1_spatial_3.png
+pixellm,road_02,appearance,the woman in white clothes and dark pants,0.7368,0.8485,0.8358,gt_masks/person/road_02_person_1.png,results_pixellm/person/road_02_person_1_appearance_1.png
+pixellm,road_02,action,the woman standing and making a V pose with both arms,0.7452,0.854,0.84,gt_masks/person/road_02_person_1.png,results_pixellm/person/road_02_person_1_action_2.png
+pixellm,road_02,appearance,the person with messy black hair wearing a black long-sleeve top and light blue jeans,0.6423,0.7822,0.8632,gt_masks/person/road_02_person_2.png,results_pixellm/person/road_02_person_2_appearance_1.png
+pixellm,road_02,spatial,the person on the left side of the center line with their back to the camera,0.6407,0.781,0.8625,gt_masks/person/road_02_person_2.png,results_pixellm/person/road_02_person_2_spatial_2.png
+pixellm,road_02,action,the person walking or running away,0.6439,0.7834,0.8668,gt_masks/person/road_02_person_2.png,results_pixellm/person/road_02_person_2_action_3.png
+pixellm,road_03,appearance,the woman in white clothes and dark pants,0.7017,0.8247,0.8482,gt_masks/person/road_03_person_1.png,results_pixellm/person/road_03_person_1_appearance_1.png
+pixellm,road_03,action,the smiling woman making a V pose with her right arm raised highest,0.6985,0.8225,0.848,gt_masks/person/road_03_person_1.png,results_pixellm/person/road_03_person_1_action_2.png
+pixellm,road_03,spatial,the woman slightly turned to the front,0.7114,0.8314,0.8543,gt_masks/person/road_03_person_1.png,results_pixellm/person/road_03_person_1_spatial_3.png
+pixellm,road_03,appearance,the person wearing a black long-sleeve top and light blue jeans,0.0,0.0,0.0,gt_masks/person/road_03_person_2.png,results_pixellm/person/road_03_person_2_appearance_1.png
+pixellm,road_03,spatial,the person far away on the left side of the center line,0.437,0.6082,0.7187,gt_masks/person/road_03_person_2.png,results_pixellm/person/road_03_person_2_spatial_2.png
+pixellm,road_03,action,the person walking towards the camera,0.0,0.0,0.0,gt_masks/person/road_03_person_2.png,results_pixellm/person/road_03_person_2_action_3.png
+pixellm,road_04,appearance,the woman in white clothes and dark pants,0.7843,0.8791,0.9117,gt_masks/person/road_04_person_1.png,results_pixellm/person/road_04_person_1_appearance_1.png
+pixellm,road_04,action,the woman with her left arm slightly bent,0.7908,0.8832,0.8453,gt_masks/person/road_04_person_1.png,results_pixellm/person/road_04_person_1_action_2.png
+pixellm,road_04,spatial,the woman turned towards the back-left showing her side and back,0.0,0.0,0.0,gt_masks/person/road_04_person_1.png,results_pixellm/person/road_04_person_1_spatial_3.png
+pixellm,road_04,appearance,the person with dark hair wearing a light long-sleeve top and loose dark pants,0.0,0.0,0.0,gt_masks/person/road_04_person_3.png,results_pixellm/person/road_04_person_3_appearance_1.png
+pixellm,road_04,spatial,the person on the left side of the center line with their back to the camera,0.1446,0.2527,0.268,gt_masks/person/road_04_person_3.png,results_pixellm/person/road_04_person_3_spatial_2.png
+pixellm,road_04,action,the person running forward,0.0315,0.061,0.156,gt_masks/person/road_04_person_3.png,results_pixellm/person/road_04_person_3_action_3.png
+pixellm,road_04,appearance,the person in a black long-sleeve top and light blue jeans,0.2683,0.4231,0.3536,gt_masks/person/road_04_person_2.png,results_pixellm/person/road_04_person_2_appearance_1.png
+pixellm,road_04,spatial,the person on the right edge near the bushes,0.6069,0.7554,0.7928,gt_masks/person/road_04_person_2.png,results_pixellm/person/road_04_person_2_spatial_2.png
+pixellm,road_04,action,the person walking inwards in side view,0.0,0.0,0.0,gt_masks/person/road_04_person_2.png,results_pixellm/person/road_04_person_2_action_3.png
+pixellm,road_05,appearance,the woman in white clothes and dark pants,0.7612,0.8644,0.8659,gt_masks/person/road_05_person_1.png,results_pixellm/person/road_05_person_1_appearance_1.png
+pixellm,road_05,action,the smiling woman raising one hand above her head,0.7646,0.8666,0.8689,gt_masks/person/road_05_person_1.png,results_pixellm/person/road_05_person_1_action_2.png
+pixellm,road_05,spatial,the woman facing the camera,0.7642,0.8663,0.8703,gt_masks/person/road_05_person_1.png,results_pixellm/person/road_05_person_1_spatial_3.png
+pixellm,road_05,appearance,"the person with dark hair wearing a light long-sleeve top, loose dark pants, and a mask",0.6735,0.8049,0.8459,gt_masks/person/road_05_person_3.png,results_pixellm/person/road_05_person_3_appearance_1.png
+pixellm,road_05,action,the person lightly running or walking towards the camera,0.0,0.0,0.0,gt_masks/person/road_05_person_3.png,results_pixellm/person/road_05_person_3_action_2.png
+pixellm,road_06,appearance,the woman in white clothes and dark pants,0.8668,0.9286,0.9256,gt_masks/person/road_06_person_1.png,results_pixellm/person/road_06_person_1_appearance_1.png
+pixellm,road_06,action,the woman looking up at the trees and sky with both arms down,0.8706,0.9308,0.9216,gt_masks/person/road_06_person_1.png,results_pixellm/person/road_06_person_1_action_2.png
+pixellm,road_06,appearance,the person wearing brown pants,0.0,0.0,0.0,gt_masks/person/road_06_person_3.png,results_pixellm/person/road_06_person_3_appearance_1.png
+pixellm,road_06,spatial,the partially visible person at the far left edge,0.7249,0.8405,0.8119,gt_masks/person/road_06_person_3.png,results_pixellm/person/road_06_person_3_spatial_2.png
+pixellm,road_06,appearance,the person wearing a dark top and light pants,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,results_pixellm/person/road_06_person_2_appearance_1.png
+pixellm,road_06,action,the person walking along the road,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,results_pixellm/person/road_06_person_2_action_2.png
+pixellm,road_07,appearance,the woman in white clothes and dark pants,0.7831,0.8784,0.8858,gt_masks/person/road_07_person_1.png,results_pixellm/person/road_07_person_1_appearance_1.png
+pixellm,road_07,action,the front-facing woman with arms spread wide to the sides,0.7824,0.8779,0.8845,gt_masks/person/road_07_person_1.png,results_pixellm/person/road_07_person_1_action_2.png
+pixellm,road_07,appearance,"the person wearing a light shirt, dark pants, and a black bag",0.6863,0.814,0.375,gt_masks/person/road_07_person_4.png,results_pixellm/person/road_07_person_4_appearance_1.png
+pixellm,road_07,spatial,the person with their back to the camera,0.7286,0.843,0.8474,gt_masks/person/road_07_person_4.png,results_pixellm/person/road_07_person_4_spatial_2.png
+pixellm,road_07,action,the person walking away,0.7271,0.842,0.8461,gt_masks/person/road_07_person_4.png,results_pixellm/person/road_07_person_4_action_3.png
+pixellm,road_07,appearance,the person wearing a dark top and dark bottom,0.0,0.0,0.1256,gt_masks/person/road_07_person_5.png,results_pixellm/person/road_07_person_5_appearance_1.png
+pixellm,road_07,spatial,the person in back view,0.0,0.0,0.0426,gt_masks/person/road_07_person_5.png,results_pixellm/person/road_07_person_5_spatial_2.png
+pixellm,road_07,action,the person walking away from the camera,0.0,0.0,0.0432,gt_masks/person/road_07_person_5.png,results_pixellm/person/road_07_person_5_action_3.png
+pixellm,road_08,appearance,the woman in white clothes and dark pants,0.8245,0.9038,0.8724,gt_masks/person/road_08_person_1.png,results_pixellm/person/road_08_person_1_appearance_1.png
+pixellm,road_08,action,the front-facing woman raising her left hand to flip her hair,0.8226,0.9027,0.8708,gt_masks/person/road_08_person_1.png,results_pixellm/person/road_08_person_1_action_2.png
+pixellm,road_08,spatial,the person in back view,0.0,0.0,0.0674,gt_masks/person/road_08_person_4.png,results_pixellm/person/road_08_person_4_spatial_1.png
+pixellm,road_08,action,the person walking away along the road,0.3845,0.5555,0.6116,gt_masks/person/road_08_person_4.png,results_pixellm/person/road_08_person_4_action_2.png
+pixellm,road_08,appearance,the person wearing a light top and dark bottom,0.0,0.0,0.0633,gt_masks/person/road_08_person_4.png,results_pixellm/person/road_08_person_4_appearance_3.png
+pixellm,road_08,spatial,the person in back view,0.0,0.0,0.0674,gt_masks/person/road_08_person_4.png,results_pixellm/person/road_08_person_4_spatial_4.png
+pixellm,road_08,action,the person walking away,0.3862,0.5572,0.6172,gt_masks/person/road_08_person_4.png,results_pixellm/person/road_08_person_4_action_5.png
+pixellm,road_09,spatial,the person in back view,0.2789,0.4362,0.815,gt_masks/person/road_09_person_4.png,results_pixellm/person/road_09_person_4_spatial_1.png
+pixellm,road_09,action,the person walking away,0.278,0.435,0.8165,gt_masks/person/road_09_person_4.png,results_pixellm/person/road_09_person_4_action_2.png
+pixellm,road_09,spatial,the farthest person in back view,0.2723,0.428,0.8143,gt_masks/person/road_09_person_4.png,results_pixellm/person/road_09_person_4_spatial_3.png
+pixellm,road_09,action,the person walking away along the road,0.2791,0.4365,0.8259,gt_masks/person/road_09_person_4.png,results_pixellm/person/road_09_person_4_action_4.png
+pixellm,road_10,appearance,the motorcyclist with a delivery box,0.8695,0.9302,0.836,gt_masks/person/road_10_person_6.png,results_pixellm/person/road_10_person_6_appearance_1.png
+pixellm,road_10,spatial,the motorcyclist on the center-left,0.8588,0.924,0.8236,gt_masks/person/road_10_person_6.png,results_pixellm/person/road_10_person_6_spatial_2.png
+pixellm,road_10,action,the motorcyclist riding downhill,0.8733,0.9324,0.8409,gt_masks/person/road_10_person_6.png,results_pixellm/person/road_10_person_6_action_3.png
+pixellm,road_10,spatial,the person far away in back view,0.1818,0.3077,0.496,gt_masks/person/road_10_person_5.png,results_pixellm/person/road_10_person_5_spatial_1.png
+pixellm,road_11,appearance,the motorcyclist with a delivery box,0.7479,0.8558,0.8791,gt_masks/person/road_11_person_6.png,results_pixellm/person/road_11_person_6_appearance_1.png
+pixellm,road_11,spatial,the motorcyclist in the center of the road,0.7374,0.8489,0.8697,gt_masks/person/road_11_person_6.png,results_pixellm/person/road_11_person_6_spatial_2.png
+pixellm,road_11,action,the motorcyclist riding downhill,0.7511,0.8578,0.881,gt_masks/person/road_11_person_6.png,results_pixellm/person/road_11_person_6_action_3.png
+pixellm,road_12,spatial,the person in back view,0.6993,0.823,0.8725,gt_masks/person/road_12_person_7.png,results_pixellm/person/road_12_person_7_spatial_1.png
+pixellm,road_12,action,the walking person,0.6995,0.8232,0.8741,gt_masks/person/road_12_person_7.png,results_pixellm/person/road_12_person_7_action_2.png
+pixellm,statue_01,action,the person making V-sign hand gestures,0.8341,0.9096,0.8624,gt_masks/person/statue_01_person_1.png,results_pixellm/person/statue_01_person_1_action_1.png
+pixellm,statue_01,appearance,the person wearing a white long-sleeved cardigan,0.8391,0.9125,0.8678,gt_masks/person/statue_01_person_1.png,results_pixellm/person/statue_01_person_1_appearance_2.png
+pixellm,statue_01,spatial,the person in a full-body standing posture,0.8368,0.9112,0.8613,gt_masks/person/statue_01_person_1.png,results_pixellm/person/statue_01_person_1_spatial_3.png
+pixellm,statue_02,appearance,the person with long straight black hair,0.8329,0.9088,0.8563,gt_masks/person/statue_02_person_1.png,results_pixellm/person/statue_02_person_1_appearance_1.png
+pixellm,statue_02,action,the person making dual V-sign hand gestures,0.0,0.0,0.0,gt_masks/person/statue_02_person_1.png,results_pixellm/person/statue_02_person_1_action_2.png
+pixellm,statue_02,appearance,the person with short black hair,0.0,0.0,0.0,gt_masks/person/statue_02_person_2.png,results_pixellm/person/statue_02_person_2_appearance_1.png
+pixellm,statue_02,appearance,the person wearing a black long-sleeved sweater,0.8066,0.893,0.8489,gt_masks/person/statue_02_person_2.png,results_pixellm/person/statue_02_person_2_appearance_2.png
+pixellm,statue_03,appearance,the person with long straight black hair,0.8233,0.9031,0.8412,gt_masks/person/statue_03_person_1.png,results_pixellm/person/statue_03_person_1_appearance_1.png
+pixellm,statue_03,action,the person making dual V-sign hand gestures,0.8231,0.903,0.8412,gt_masks/person/statue_03_person_1.png,results_pixellm/person/statue_03_person_1_action_2.png
+pixellm,statue_03,appearance,a partial limb and foot wearing a white sneaker,0.1342,0.2367,0.1072,gt_masks/person/statue_03_person_2.png,results_pixellm/person/statue_03_person_2_appearance_1.png
+pixellm,statue_04,action,the person making V-sign hand gestures,0.852,0.9201,0.8667,gt_masks/person/statue_04_person_1.png,results_pixellm/person/statue_04_person_1_action_1.png
+pixellm,statue_04,appearance,the person wearing a white long-sleeved cardigan,0.0,0.0,0.0,gt_masks/person/statue_04_person_1.png,results_pixellm/person/statue_04_person_1_appearance_2.png
+pixellm,statue_04,spatial,the person with long brown hair seen from the back,0.928,0.9626,0.8,gt_masks/person/statue_04_person_3.png,results_pixellm/person/statue_04_person_3_spatial_1.png
+pixellm,statue_04,appearance,the person wearing a beige or light pink long-sleeved top,0.9276,0.9624,0.7991,gt_masks/person/statue_04_person_3.png,results_pixellm/person/statue_04_person_3_appearance_2.png
+pixellm,statue_05,spatial,the partially occluded person,0.031,0.0602,0.4119,gt_masks/person/statue_05_person_3.png,results_pixellm/person/statue_05_person_3_spatial_1.png
+pixellm,statue_05,spatial,the person with long brown hair visible behind the main subject's head,0.0794,0.1472,0.4683,gt_masks/person/statue_05_person_3.png,results_pixellm/person/statue_05_person_3_spatial_2.png
+pixellm,statue_06,appearance,close-up hand segments are blurring into the lens,0.8078,0.8937,0.8213,gt_masks/person/statue_06_person_4.png,results_pixellm/person/statue_06_person_4_appearance_1.png
+pixellm,statue_06,spatial,a finger on the left side of the screen,0.8042,0.8915,0.8618,gt_masks/person/statue_06_person_4.png,results_pixellm/person/statue_06_person_4_spatial_2.png
+pixellm,statue_07,spatial,the person in a full-body standing posture,0.8692,0.93,0.8466,gt_masks/person/statue_07_person_1.png,results_pixellm/person/statue_07_person_1_spatial_1.png
+pixellm,statue_07,action,the young woman holding a smartphone in her right hand,0.8749,0.9333,0.8563,gt_masks/person/statue_07_person_1.png,results_pixellm/person/statue_07_person_1_action_2.png
+pixellm,statue_07,appearance,the woman wearing a white long-sleeved cardigan,0.874,0.9328,0.8537,gt_masks/person/statue_07_person_1.png,results_pixellm/person/statue_07_person_1_appearance_3.png
+pixellm,statue_07,appearance,a blurry skin-toned artifact in the upper-left corner,0.6546,0.7912,0.57,gt_masks/person/statue_07_person_4.png,results_pixellm/person/statue_07_person_4_appearance_1.png
+pixellm,statue_07,spatial,out-of-focus fingertip or hand segment is encroaching from the top-left edge,0.6543,0.791,0.5391,gt_masks/person/statue_07_person_4.png,results_pixellm/person/statue_07_person_4_spatial_2.png
+pixellm,statue_08,action,the young woman holding a smartphone in her right hand,0.8786,0.9354,0.8717,gt_masks/person/statue_08_person_1.png,results_pixellm/person/statue_08_person_1_action_1.png
+pixellm,statue_08,appearance,the woman wearing a white long-sleeved cardigan,0.8767,0.9343,0.8689,gt_masks/person/statue_08_person_1.png,results_pixellm/person/statue_08_person_1_appearance_2.png
+pixellm,statue_09,spatial,the woman in an upper body shot,0.9244,0.9607,0.7768,gt_masks/person/statue_09_person_1.png,results_pixellm/person/statue_09_person_1_spatial_1.png
+pixellm,statue_09,appearance,the woman with long straight black hair,0.9224,0.9597,0.7658,gt_masks/person/statue_09_person_1.png,results_pixellm/person/statue_09_person_1_appearance_2.png
+pixellm,statue_09,appearance,the woman wearing a white long-sleeved cardigan,0.9192,0.9579,0.7648,gt_masks/person/statue_09_person_1.png,results_pixellm/person/statue_09_person_1_appearance_3.png
+pixellm,statue_10,spatial,"the woman in a full-body shot, positioned in the lower-left foreground",0.8172,0.8994,0.8362,gt_masks/person/statue_10_person_1.png,results_pixellm/person/statue_10_person_1_spatial_1.png
+pixellm,statue_10,appearance,the woman with long straight black hair,0.8298,0.907,0.8543,gt_masks/person/statue_10_person_1.png,results_pixellm/person/statue_10_person_1_appearance_2.png
+pixellm,statue_10,appearance,the woman wearing a white long-sleeved cardigan,0.8294,0.9068,0.8531,gt_masks/person/statue_10_person_1.png,results_pixellm/person/statue_10_person_1_appearance_3.png
+pixellm,statue_10,spatial,"the woman standing on a wide, light-colored tiled plaza",0.8204,0.9013,0.8407,gt_masks/person/statue_10_person_1.png,results_pixellm/person/statue_10_person_1_spatial_4.png
+pixellm,field_01,spatial,the woman in the central foreground,0.8554,0.9221,0.8656,gt_masks/person/field_01_person_1.png,results_pixellm/person/field_01_person_1_spatial_1.png
+pixellm,field_01,appearance,the woman in white top and grey flare jeans,0.8604,0.925,0.872,gt_masks/person/field_01_person_1.png,results_pixellm/person/field_01_person_1_appearance_2.png
+pixellm,field_01,action,the woman standing still and smiling,0.8621,0.9259,0.8752,gt_masks/person/field_01_person_1.png,results_pixellm/person/field_01_person_1_action_3.png
+pixellm,field_01,spatial,the background figure on the right side,0.6621,0.7967,0.8183,gt_masks/person/field_01_person_2.png,results_pixellm/person/field_01_person_2_spatial_1.png
+pixellm,field_01,appearance,the woman in beige top and brown pants,0.6679,0.8009,0.8217,gt_masks/person/field_01_person_2.png,results_pixellm/person/field_01_person_2_appearance_2.png
+pixellm,field_01,action,the woman walking across the field,0.0,0.0,0.0,gt_masks/person/field_01_person_2.png,results_pixellm/person/field_01_person_2_action_3.png
+pixellm,field_02,spatial,the central figure facing the camera,0.8131,0.8969,0.8256,gt_masks/person/field_02_person_1.png,results_pixellm/person/field_02_person_1_spatial_1.png
+pixellm,field_02,appearance,the woman in a white button-down shirt,0.8155,0.8984,0.8275,gt_masks/person/field_02_person_1.png,results_pixellm/person/field_02_person_1_appearance_2.png
+pixellm,field_02,action,the woman standing with a neutral expression,0.8169,0.8992,0.8295,gt_masks/person/field_02_person_1.png,results_pixellm/person/field_02_person_1_action_3.png
+pixellm,field_02,spatial,the person in the middle ground on the left,0.0965,0.1761,0.2854,gt_masks/person/field_02_person_2.png,results_pixellm/person/field_02_person_2_spatial_1.png
+pixellm,field_02,appearance,the woman with long hair in partial profile,0.0831,0.1534,0.2769,gt_masks/person/field_02_person_2.png,results_pixellm/person/field_02_person_2_appearance_2.png
+pixellm,field_02,action,the woman walking away from the camera,0.1265,0.2246,0.3018,gt_masks/person/field_02_person_2.png,results_pixellm/person/field_02_person_2_action_3.png
+pixellm,field_03,spatial,the woman in the center of the turf,0.8259,0.9047,0.8567,gt_masks/person/field_03_person_1.png,results_pixellm/person/field_03_person_1_spatial_1.png
+pixellm,field_03,appearance,the woman with long hair flowing down,0.8435,0.9151,0.8738,gt_masks/person/field_03_person_1.png,results_pixellm/person/field_03_person_1_appearance_2.png
+pixellm,field_03,action,the woman shielding her eyes with her hand,0.8467,0.917,0.8761,gt_masks/person/field_03_person_1.png,results_pixellm/person/field_03_person_1_action_3.png
+pixellm,field_05,spatial,the woman on the far-left edge,0.8547,0.9217,0.8711,gt_masks/person/field_05_person_3.png,results_pixellm/person/field_05_person_3_spatial_1.png
+pixellm,field_05,appearance,the observer in a light light blue cardigan,0.8735,0.9325,0.8959,gt_masks/person/field_05_person_3.png,results_pixellm/person/field_05_person_3_appearance_2.png
+pixellm,field_05,spatial,the young man in the center-left,0.8266,0.9051,0.8874,gt_masks/person/field_05_person_4.png,results_pixellm/person/field_05_person_4_spatial_1.png
+pixellm,field_05,appearance,the man in a black sweatshirt and jeans,0.8336,0.9092,0.9009,gt_masks/person/field_05_person_4.png,results_pixellm/person/field_05_person_4_appearance_2.png
+pixellm,field_05,spatial,the seated woman in the foreground,0.8872,0.9402,0.8824,gt_masks/person/field_05_person_1.png,results_pixellm/person/field_05_person_1_spatial_1.png
+pixellm,field_05,action,the woman making a V sign with her hand,0.0,0.0,0.0321,gt_masks/person/field_05_person_1.png,results_pixellm/person/field_05_person_1_action_2.png
+pixellm,field_06,spatial,the woman sitting in the foreground,0.869,0.9299,0.8798,gt_masks/person/field_06_person_1.png,results_pixellm/person/field_06_person_1_spatial_1.png
+pixellm,field_06,appearance,the woman in white knit and charcoal jeans,0.8603,0.9249,0.8817,gt_masks/person/field_06_person_1.png,results_pixellm/person/field_06_person_1_appearance_2.png
+pixellm,field_06,action,the woman tilting her head with a smile,0.8427,0.9146,0.7506,gt_masks/person/field_06_person_1.png,results_pixellm/person/field_06_person_1_action_3.png
+pixellm,field_06,spatial,the masked figure standing directly behind,0.8133,0.897,0.8454,gt_masks/person/field_06_person_2.png,results_pixellm/person/field_06_person_2_spatial_1.png
+pixellm,field_06,appearance,the woman in a tan sweatshirt and brown pants,0.8122,0.8964,0.8465,gt_masks/person/field_06_person_2.png,results_pixellm/person/field_06_person_2_appearance_2.png
+pixellm,field_06,action,the woman shielding her forehead,0.8085,0.8941,0.8447,gt_masks/person/field_06_person_2.png,results_pixellm/person/field_06_person_2_action_3.png
+pixellm,field_07,spatial,the figure at the bottom-center,0.8043,0.8915,0.689,gt_masks/person/field_07_person_1.png,results_pixellm/person/field_07_person_1_spatial_1.png
+pixellm,field_07,appearance,the woman with hair covering her face,0.544,0.7047,0.4617,gt_masks/person/field_07_person_1.png,results_pixellm/person/field_07_person_1_appearance_2.png
+pixellm,field_07,action,the woman moving her upper body quickly,0.1683,0.2881,0.3088,gt_masks/person/field_07_person_1.png,results_pixellm/person/field_07_person_1_action_3.png
+pixellm,field_07,spatial,the person in the middle ground behind,0.6093,0.7572,0.5424,gt_masks/person/field_07_person_2.png,results_pixellm/person/field_07_person_2_spatial_1.png
+pixellm,field_07,appearance,the masked woman in a beige sweatshirt,0.4766,0.6455,0.481,gt_masks/person/field_07_person_2.png,results_pixellm/person/field_07_person_2_appearance_2.png
+pixellm,field_07,action,the woman in a mock-fighting stance,0.5343,0.6965,0.5075,gt_masks/person/field_07_person_2.png,results_pixellm/person/field_07_person_2_action_3.png
+pixellm,field_08,spatial,"half-visible person at left edge, cropped view.",0.811,0.8957,0.8146,gt_masks/person/field_08_person_2.png,results_pixellm/person/field_08_person_2_spatial_1.png
+read,yong_01,appearance,the woman in white clothes and dark pants,0.9624,0.9808,0.9548,gt_masks/person/yong_01_person_1.png,results_read/person/yong_01_person_1_appearance_1.png
+read,yong_01,spatial,the foreground human figure,0.9563,0.9777,0.8609,gt_masks/person/yong_01_person_1.png,results_read/person/yong_01_person_1_spatial_2.png
+read,yong_01,spatial,the foreground woman on the left side,0.9633,0.9813,0.9558,gt_masks/person/yong_01_person_1.png,results_read/person/yong_01_person_1_spatial_3.png
+read,yong_01,action,the standing woman near the left foreground,0.963,0.9811,0.956,gt_masks/person/yong_01_person_1.png,results_read/person/yong_01_person_1_action_4.png
+read,yong_01,appearance,the background masked woman,0.8894,0.9414,0.5622,gt_masks/person/yong_01_person_2.png,results_read/person/yong_01_person_2_appearance_1.png
+read,yong_01,spatial,the background human figure,0.9115,0.9537,0.7303,gt_masks/person/yong_01_person_2.png,results_read/person/yong_01_person_2_spatial_2.png
+read,yong_01,spatial,the background masked woman near the center-right,0.8978,0.9461,0.7674,gt_masks/person/yong_01_person_2.png,results_read/person/yong_01_person_2_spatial_3.png
+read,yong_01,action,the walking masked woman in the mid-background,0.9164,0.9564,0.8393,gt_masks/person/yong_01_person_2.png,results_read/person/yong_01_person_2_action_4.png
+read,yong_02,appearance,the woman in white clothes and dark pants,0.9339,0.9658,0.978,gt_masks/person/yong_02_person_1.png,results_read/person/yong_02_person_1_appearance_1.png
+read,yong_02,spatial,the visible human figure,0.9377,0.9678,0.9785,gt_masks/person/yong_02_person_1.png,results_read/person/yong_02_person_1_spatial_2.png
+read,yong_02,action,the woman walking in side view,0.937,0.9675,0.9792,gt_masks/person/yong_02_person_1.png,results_read/person/yong_02_person_1_action_3.png
+read,yong_02,action,the walking woman facing right,0.9395,0.9688,0.9787,gt_masks/person/yong_02_person_1.png,results_read/person/yong_02_person_1_action_4.png
+read,yong_03,appearance,the woman in white clothes and dark pants,0.9725,0.9861,0.9737,gt_masks/person/yong_03_person_1.png,results_read/person/yong_03_person_1_appearance_1.png
+read,yong_03,spatial,the visible human figure,0.9736,0.9866,0.9746,gt_masks/person/yong_03_person_1.png,results_read/person/yong_03_person_1_spatial_2.png
+read,yong_03,action,the foreground woman making a peace sign,0.9736,0.9866,0.9751,gt_masks/person/yong_03_person_1.png,results_read/person/yong_03_person_1_action_3.png
+read,yong_03,action,the woman posing near the left side,0.9709,0.9852,0.9722,gt_masks/person/yong_03_person_1.png,results_read/person/yong_03_person_1_action_4.png
+read,yong_04,appearance,the woman in white clothes and dark pants,0.9631,0.9812,0.8909,gt_masks/person/yong_04_person_1.png,results_read/person/yong_04_person_1_appearance_1.png
+read,yong_04,spatial,the foreground human figure,0.9586,0.9788,0.8479,gt_masks/person/yong_04_person_1.png,results_read/person/yong_04_person_1_spatial_2.png
+read,yong_04,action,the foreground woman making a peace sign on the left,0.9644,0.9819,0.9313,gt_masks/person/yong_04_person_1.png,results_read/person/yong_04_person_1_action_3.png
+read,yong_04,action,the posed woman near the left foreground,0.9655,0.9824,0.9322,gt_masks/person/yong_04_person_1.png,results_read/person/yong_04_person_1_action_4.png
+read,yong_04,appearance,the background masked woman,0.5565,0.715,0.5842,gt_masks/person/yong_04_person_2.png,results_read/person/yong_04_person_2_appearance_1.png
+read,yong_04,spatial,the middle human figure,0.9226,0.9597,0.8503,gt_masks/person/yong_04_person_2.png,results_read/person/yong_04_person_2_spatial_2.png
+read,yong_04,action,the walking masked woman near the center,0.9255,0.9613,0.8593,gt_masks/person/yong_04_person_2.png,results_read/person/yong_04_person_2_action_3.png
+read,yong_04,action,the center walking woman,0.9251,0.9611,0.8518,gt_masks/person/yong_04_person_2.png,results_read/person/yong_04_person_2_action_4.png
+read,yong_04,action,the walking man on the right side,0.8664,0.9284,0.9633,gt_masks/person/yong_04_person_3.png,results_read/person/yong_04_person_3_action_1.png
+read,yong_04,spatial,the right-side human figure,0.8582,0.9237,0.9656,gt_masks/person/yong_04_person_3.png,results_read/person/yong_04_person_3_spatial_2.png
+read,yong_05,appearance,the woman in white clothes and dark pants,0.9568,0.9779,0.96,gt_masks/person/yong_05_person_1.png,results_read/person/yong_05_person_1_appearance_1.png
+read,yong_05,spatial,the cropped human figure,0.6939,0.8193,0.5747,gt_masks/person/yong_05_person_1.png,results_read/person/yong_05_person_1_spatial_2.png
+read,yong_05,spatial,the partially visible woman at the far left edge,0.0,0.0,0.0,gt_masks/person/yong_05_person_2.png,results_read/person/yong_05_person_2_spatial_1.png
+read,yong_05,spatial,the cropped woman on the left border,0.0,0.0,0.0,gt_masks/person/yong_05_person_2.png,results_read/person/yong_05_person_2_spatial_2.png
+read,yong_06,appearance,the walking man in a black top and light blue jeans,0.95,0.9744,0.8436,gt_masks/person/yong_06_person_5.png,results_read/person/yong_06_person_5_appearance_1.png
+read,yong_06,appearance,the visible male figure,0.9544,0.9767,0.9711,gt_masks/person/yong_06_person_5.png,results_read/person/yong_06_person_5_appearance_2.png
+read,yong_06,action,the man walking toward the right side,0.9507,0.9747,0.9694,gt_masks/person/yong_06_person_5.png,results_read/person/yong_06_person_5_action_3.png
+read,yong_06,spatial,the man near the left-center area,0.9481,0.9733,0.9656,gt_masks/person/yong_06_person_5.png,results_read/person/yong_06_person_5_spatial_4.png
+read,yong_06,spatial,the partially visible person at the far left edge,0.1025,0.1859,0.1891,gt_masks/person/yong_06_person_4.png,results_read/person/yong_06_person_4_spatial_1.png
+read,yong_06,spatial,the cropped person on the left border,0.0871,0.1602,0.1855,gt_masks/person/yong_06_person_4.png,results_read/person/yong_06_person_4_spatial_2.png
+read,yong_06,spatial,the partially visible woman at the far left edge,0.1141,0.2048,0.1899,gt_masks/person/yong_06_person_4.png,results_read/person/yong_06_person_4_spatial_3.png
+read,yong_06,spatial,the cropped woman on the left border,0.0924,0.1692,0.1853,gt_masks/person/yong_06_person_4.png,results_read/person/yong_06_person_4_spatial_4.png
+read,yong_07,appearance,the woman in white clothes and dark pants,0.9519,0.9753,0.8716,gt_masks/person/yong_07_person_1.png,results_read/person/yong_07_person_1_appearance_1.png
+read,yong_07,spatial,the partially visible woman at the far left edge,0.9424,0.9704,0.8547,gt_masks/person/yong_07_person_1.png,results_read/person/yong_07_person_1_spatial_2.png
+read,yong_07,spatial,the cropped woman on the left border,0.9455,0.972,0.8594,gt_masks/person/yong_07_person_1.png,results_read/person/yong_07_person_1_spatial_3.png
+read,road_01,appearance,the woman in white clothes and dark pants,0.943,0.9707,0.9748,gt_masks/person/road_01_person_1.png,results_read/person/road_01_person_1_appearance_1.png
+read,road_01,action,the woman raising both arms to make a V pose,0.9421,0.9702,0.9671,gt_masks/person/road_01_person_1.png,results_read/person/road_01_person_1_action_2.png
+read,road_01,spatial,the front-facing woman,0.9455,0.972,0.975,gt_masks/person/road_01_person_1.png,results_read/person/road_01_person_1_spatial_3.png
+read,road_02,appearance,the woman in white clothes and dark pants,0.931,0.9643,0.9735,gt_masks/person/road_02_person_1.png,results_read/person/road_02_person_1_appearance_1.png
+read,road_02,action,the woman standing and making a V pose with both arms,0.9426,0.9705,0.9795,gt_masks/person/road_02_person_1.png,results_read/person/road_02_person_1_action_2.png
+read,road_02,appearance,the person with messy black hair wearing a black long-sleeve top and light blue jeans,0.8645,0.9273,0.6059,gt_masks/person/road_02_person_2.png,results_read/person/road_02_person_2_appearance_1.png
+read,road_02,spatial,the person on the left side of the center line with their back to the camera,0.9396,0.9689,0.9838,gt_masks/person/road_02_person_2.png,results_read/person/road_02_person_2_spatial_2.png
+read,road_02,action,the person walking or running away,0.9371,0.9675,0.9812,gt_masks/person/road_02_person_2.png,results_read/person/road_02_person_2_action_3.png
+read,road_03,appearance,the woman in white clothes and dark pants,0.9225,0.9597,0.9751,gt_masks/person/road_03_person_1.png,results_read/person/road_03_person_1_appearance_1.png
+read,road_03,action,the smiling woman making a V pose with her right arm raised highest,0.9286,0.963,0.9746,gt_masks/person/road_03_person_1.png,results_read/person/road_03_person_1_action_2.png
+read,road_03,spatial,the woman slightly turned to the front,0.9238,0.9604,0.9736,gt_masks/person/road_03_person_1.png,results_read/person/road_03_person_1_spatial_3.png
+read,road_03,appearance,the person wearing a black long-sleeve top and light blue jeans,0.0778,0.1443,0.2015,gt_masks/person/road_03_person_2.png,results_read/person/road_03_person_2_appearance_1.png
+read,road_03,spatial,the person far away on the left side of the center line,0.238,0.3845,0.2576,gt_masks/person/road_03_person_2.png,results_read/person/road_03_person_2_spatial_2.png
+read,road_03,action,the person walking towards the camera,0.095,0.1735,0.208,gt_masks/person/road_03_person_2.png,results_read/person/road_03_person_2_action_3.png
+read,road_04,appearance,the woman in white clothes and dark pants,0.9369,0.9674,0.8575,gt_masks/person/road_04_person_1.png,results_read/person/road_04_person_1_appearance_1.png
+read,road_04,action,the woman with her left arm slightly bent,0.9534,0.9761,0.9807,gt_masks/person/road_04_person_1.png,results_read/person/road_04_person_1_action_2.png
+read,road_04,spatial,the woman turned towards the back-left showing her side and back,0.8244,0.9038,0.5509,gt_masks/person/road_04_person_1.png,results_read/person/road_04_person_1_spatial_3.png
+read,road_04,appearance,the person with dark hair wearing a light long-sleeve top and loose dark pants,0.0,0.0,0.0,gt_masks/person/road_04_person_3.png,results_read/person/road_04_person_3_appearance_1.png
+read,road_04,spatial,the person on the left side of the center line with their back to the camera,0.2869,0.4459,0.3229,gt_masks/person/road_04_person_3.png,results_read/person/road_04_person_3_spatial_2.png
+read,road_04,action,the person running forward,0.2844,0.4429,0.299,gt_masks/person/road_04_person_3.png,results_read/person/road_04_person_3_action_3.png
+read,road_04,appearance,the person in a black long-sleeve top and light blue jeans,0.9262,0.9617,0.9471,gt_masks/person/road_04_person_2.png,results_read/person/road_04_person_2_appearance_1.png
+read,road_04,spatial,the person on the right edge near the bushes,0.8805,0.9365,0.6768,gt_masks/person/road_04_person_2.png,results_read/person/road_04_person_2_spatial_2.png
+read,road_04,action,the person walking inwards in side view,0.2931,0.4533,0.288,gt_masks/person/road_04_person_2.png,results_read/person/road_04_person_2_action_3.png
+read,road_05,appearance,the woman in white clothes and dark pants,0.9358,0.9668,0.9698,gt_masks/person/road_05_person_1.png,results_read/person/road_05_person_1_appearance_1.png
+read,road_05,action,the smiling woman raising one hand above her head,0.9351,0.9665,0.9689,gt_masks/person/road_05_person_1.png,results_read/person/road_05_person_1_action_2.png
+read,road_05,spatial,the woman facing the camera,0.9366,0.9673,0.97,gt_masks/person/road_05_person_1.png,results_read/person/road_05_person_1_spatial_3.png
+read,road_05,appearance,"the person with dark hair wearing a light long-sleeve top, loose dark pants, and a mask",0.9397,0.9689,0.9787,gt_masks/person/road_05_person_3.png,results_read/person/road_05_person_3_appearance_1.png
+read,road_05,action,the person lightly running or walking towards the camera,0.0,0.0,0.0,gt_masks/person/road_05_person_3.png,results_read/person/road_05_person_3_action_2.png
+read,road_06,appearance,the woman in white clothes and dark pants,0.9581,0.9786,0.9751,gt_masks/person/road_06_person_1.png,results_read/person/road_06_person_1_appearance_1.png
+read,road_06,action,the woman looking up at the trees and sky with both arms down,0.9638,0.9816,0.9761,gt_masks/person/road_06_person_1.png,results_read/person/road_06_person_1_action_2.png
+read,road_06,appearance,the person wearing brown pants,0.2816,0.4395,0.2618,gt_masks/person/road_06_person_3.png,results_read/person/road_06_person_3_appearance_1.png
+read,road_06,spatial,the partially visible person at the far left edge,0.9549,0.9769,0.9838,gt_masks/person/road_06_person_3.png,results_read/person/road_06_person_3_spatial_2.png
+read,road_06,appearance,the person wearing a dark top and light pants,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,results_read/person/road_06_person_2_appearance_1.png
+read,road_06,action,the person walking along the road,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,results_read/person/road_06_person_2_action_2.png
+read,road_07,appearance,the woman in white clothes and dark pants,0.9209,0.9588,0.9146,gt_masks/person/road_07_person_1.png,results_read/person/road_07_person_1_appearance_1.png
+read,road_07,action,the front-facing woman with arms spread wide to the sides,0.9258,0.9615,0.9677,gt_masks/person/road_07_person_1.png,results_read/person/road_07_person_1_action_2.png
+read,road_07,appearance,"the person wearing a light shirt, dark pants, and a black bag",0.2891,0.4486,0.3138,gt_masks/person/road_07_person_4.png,results_read/person/road_07_person_4_appearance_1.png
+read,road_07,spatial,the person with their back to the camera,0.9041,0.9496,0.9681,gt_masks/person/road_07_person_4.png,results_read/person/road_07_person_4_spatial_2.png
+read,road_07,action,the person walking away,0.8893,0.9414,0.9639,gt_masks/person/road_07_person_4.png,results_read/person/road_07_person_4_action_3.png
+read,road_07,appearance,the person wearing a dark top and dark bottom,0.0,0.0,0.0229,gt_masks/person/road_07_person_5.png,results_read/person/road_07_person_5_appearance_1.png
+read,road_07,spatial,the person in back view,0.0,0.0,0.0429,gt_masks/person/road_07_person_5.png,results_read/person/road_07_person_5_spatial_2.png
+read,road_07,action,the person walking away from the camera,0.0,0.0,0.038,gt_masks/person/road_07_person_5.png,results_read/person/road_07_person_5_action_3.png
+read,road_08,appearance,the woman in white clothes and dark pants,0.9223,0.9596,0.9435,gt_masks/person/road_08_person_1.png,results_read/person/road_08_person_1_appearance_1.png
+read,road_08,action,the front-facing woman raising her left hand to flip her hair,0.9254,0.9612,0.9451,gt_masks/person/road_08_person_1.png,results_read/person/road_08_person_1_action_2.png
+read,road_08,spatial,the person in back view,0.17,0.2906,0.3251,gt_masks/person/road_08_person_4.png,results_read/person/road_08_person_4_spatial_1.png
+read,road_08,action,the person walking away along the road,0.0797,0.1477,0.3091,gt_masks/person/road_08_person_4.png,results_read/person/road_08_person_4_action_2.png
+read,road_08,appearance,the person wearing a light top and dark bottom,0.0,0.0,0.0573,gt_masks/person/road_08_person_4.png,results_read/person/road_08_person_4_appearance_3.png
+read,road_08,spatial,the person in back view,0.17,0.2906,0.3251,gt_masks/person/road_08_person_4.png,results_read/person/road_08_person_4_spatial_4.png
+read,road_08,action,the person walking away,0.0906,0.1661,0.3086,gt_masks/person/road_08_person_4.png,results_read/person/road_08_person_4_action_5.png
+read,road_09,spatial,the person in back view,0.3348,0.5017,0.747,gt_masks/person/road_09_person_4.png,results_read/person/road_09_person_4_spatial_1.png
+read,road_09,action,the person walking away,0.848,0.9177,0.9876,gt_masks/person/road_09_person_4.png,results_read/person/road_09_person_4_action_2.png
+read,road_09,spatial,the farthest person in back view,0.3548,0.5238,0.7027,gt_masks/person/road_09_person_4.png,results_read/person/road_09_person_4_spatial_3.png
+read,road_09,action,the person walking away along the road,0.8587,0.924,0.9905,gt_masks/person/road_09_person_4.png,results_read/person/road_09_person_4_action_4.png
+read,road_10,appearance,the motorcyclist with a delivery box,0.2554,0.4069,0.4534,gt_masks/person/road_10_person_6.png,results_read/person/road_10_person_6_appearance_1.png
+read,road_10,spatial,the motorcyclist on the center-left,0.7808,0.8769,0.7897,gt_masks/person/road_10_person_6.png,results_read/person/road_10_person_6_spatial_2.png
+read,road_10,action,the motorcyclist riding downhill,0.7953,0.886,0.8237,gt_masks/person/road_10_person_6.png,results_read/person/road_10_person_6_action_3.png
+read,road_10,spatial,the person far away in back view,0.0,0.0,0.0903,gt_masks/person/road_10_person_5.png,results_read/person/road_10_person_5_spatial_1.png
+read,road_11,appearance,the motorcyclist with a delivery box,0.9189,0.9578,0.9727,gt_masks/person/road_11_person_6.png,results_read/person/road_11_person_6_appearance_1.png
+read,road_11,spatial,the motorcyclist in the center of the road,0.9177,0.9571,0.9707,gt_masks/person/road_11_person_6.png,results_read/person/road_11_person_6_spatial_2.png
+read,road_11,action,the motorcyclist riding downhill,0.8956,0.945,0.9597,gt_masks/person/road_11_person_6.png,results_read/person/road_11_person_6_action_3.png
+read,road_12,spatial,the person in back view,0.8951,0.9447,0.9472,gt_masks/person/road_12_person_7.png,results_read/person/road_12_person_7_spatial_1.png
+read,road_12,action,the walking person,0.9359,0.9669,0.9727,gt_masks/person/road_12_person_7.png,results_read/person/road_12_person_7_action_2.png
+read,statue_01,action,the person making V-sign hand gestures,0.9559,0.9774,0.9685,gt_masks/person/statue_01_person_1.png,results_read/person/statue_01_person_1_action_1.png
+read,statue_01,appearance,the person wearing a white long-sleeved cardigan,0.9582,0.9787,0.9705,gt_masks/person/statue_01_person_1.png,results_read/person/statue_01_person_1_appearance_2.png
+read,statue_01,spatial,the person in a full-body standing posture,0.6466,0.7853,0.612,gt_masks/person/statue_01_person_1.png,results_read/person/statue_01_person_1_spatial_3.png
+read,statue_02,appearance,the person with long straight black hair,0.9528,0.9758,0.9603,gt_masks/person/statue_02_person_1.png,results_read/person/statue_02_person_1_appearance_1.png
+read,statue_02,action,the person making dual V-sign hand gestures,0.9558,0.9774,0.9626,gt_masks/person/statue_02_person_1.png,results_read/person/statue_02_person_1_action_2.png
+read,statue_02,appearance,the person with short black hair,0.0,0.0,0.0,gt_masks/person/statue_02_person_2.png,results_read/person/statue_02_person_2_appearance_1.png
+read,statue_02,appearance,the person wearing a black long-sleeved sweater,0.9541,0.9765,0.9263,gt_masks/person/statue_02_person_2.png,results_read/person/statue_02_person_2_appearance_2.png
+read,statue_03,appearance,the person with long straight black hair,0.9445,0.9714,0.9607,gt_masks/person/statue_03_person_1.png,results_read/person/statue_03_person_1_appearance_1.png
+read,statue_03,action,the person making dual V-sign hand gestures,0.9484,0.9735,0.9648,gt_masks/person/statue_03_person_1.png,results_read/person/statue_03_person_1_action_2.png
+read,statue_03,appearance,a partial limb and foot wearing a white sneaker,0.8997,0.9472,0.9706,gt_masks/person/statue_03_person_2.png,results_read/person/statue_03_person_2_appearance_1.png
+read,statue_04,action,the person making V-sign hand gestures,0.96,0.9796,0.9701,gt_masks/person/statue_04_person_1.png,results_read/person/statue_04_person_1_action_1.png
+read,statue_04,appearance,the person wearing a white long-sleeved cardigan,0.9595,0.9793,0.9693,gt_masks/person/statue_04_person_1.png,results_read/person/statue_04_person_1_appearance_2.png
+read,statue_04,spatial,the person with long brown hair seen from the back,0.9711,0.9854,0.9224,gt_masks/person/statue_04_person_3.png,results_read/person/statue_04_person_3_spatial_1.png
+read,statue_04,appearance,the person wearing a beige or light pink long-sleeved top,0.972,0.9858,0.9239,gt_masks/person/statue_04_person_3.png,results_read/person/statue_04_person_3_appearance_2.png
+read,statue_05,spatial,the partially occluded person,0.0627,0.1181,0.5077,gt_masks/person/statue_05_person_3.png,results_read/person/statue_05_person_3_spatial_1.png
+read,statue_05,spatial,the person with long brown hair visible behind the main subject's head,0.1932,0.3238,0.4647,gt_masks/person/statue_05_person_3.png,results_read/person/statue_05_person_3_spatial_2.png
+read,statue_06,appearance,close-up hand segments are blurring into the lens,0.922,0.9594,0.9395,gt_masks/person/statue_06_person_4.png,results_read/person/statue_06_person_4_appearance_1.png
+read,statue_06,spatial,a finger on the left side of the screen,0.9243,0.9606,0.9396,gt_masks/person/statue_06_person_4.png,results_read/person/statue_06_person_4_spatial_2.png
+read,statue_07,spatial,the person in a full-body standing posture,0.947,0.9728,0.8825,gt_masks/person/statue_07_person_1.png,results_read/person/statue_07_person_1_spatial_1.png
+read,statue_07,action,the young woman holding a smartphone in her right hand,0.9632,0.9813,0.9499,gt_masks/person/statue_07_person_1.png,results_read/person/statue_07_person_1_action_2.png
+read,statue_07,appearance,the woman wearing a white long-sleeved cardigan,0.9645,0.9819,0.9515,gt_masks/person/statue_07_person_1.png,results_read/person/statue_07_person_1_appearance_3.png
+read,statue_07,appearance,a blurry skin-toned artifact in the upper-left corner,0.19,0.3194,0.4942,gt_masks/person/statue_07_person_4.png,results_read/person/statue_07_person_4_appearance_1.png
+read,statue_07,spatial,out-of-focus fingertip or hand segment is encroaching from the top-left edge,0.0439,0.0841,0.3798,gt_masks/person/statue_07_person_4.png,results_read/person/statue_07_person_4_spatial_2.png
+read,statue_08,action,the young woman holding a smartphone in her right hand,0.957,0.978,0.9463,gt_masks/person/statue_08_person_1.png,results_read/person/statue_08_person_1_action_1.png
+read,statue_08,appearance,the woman wearing a white long-sleeved cardigan,0.9547,0.9768,0.9445,gt_masks/person/statue_08_person_1.png,results_read/person/statue_08_person_1_appearance_2.png
+read,statue_09,spatial,the woman in an upper body shot,0.8235,0.9032,0.737,gt_masks/person/statue_09_person_1.png,results_read/person/statue_09_person_1_spatial_1.png
+read,statue_09,appearance,the woman with long straight black hair,0.9683,0.9839,0.9135,gt_masks/person/statue_09_person_1.png,results_read/person/statue_09_person_1_appearance_2.png
+read,statue_09,appearance,the woman wearing a white long-sleeved cardigan,0.9703,0.9849,0.9213,gt_masks/person/statue_09_person_1.png,results_read/person/statue_09_person_1_appearance_3.png
+read,statue_10,spatial,"the woman in a full-body shot, positioned in the lower-left foreground",0.9488,0.9737,0.965,gt_masks/person/statue_10_person_1.png,results_read/person/statue_10_person_1_spatial_1.png
+read,statue_10,appearance,the woman with long straight black hair,0.9446,0.9715,0.9602,gt_masks/person/statue_10_person_1.png,results_read/person/statue_10_person_1_appearance_2.png
+read,statue_10,appearance,the woman wearing a white long-sleeved cardigan,0.9452,0.9718,0.9612,gt_masks/person/statue_10_person_1.png,results_read/person/statue_10_person_1_appearance_3.png
+read,statue_10,spatial,"the woman standing on a wide, light-colored tiled plaza",0.9497,0.9742,0.9639,gt_masks/person/statue_10_person_1.png,results_read/person/statue_10_person_1_spatial_4.png
+read,field_01,spatial,the woman in the central foreground,0.9603,0.9798,0.9694,gt_masks/person/field_01_person_1.png,results_read/person/field_01_person_1_spatial_1.png
+read,field_01,appearance,the woman in white top and grey flare jeans,0.9588,0.979,0.9691,gt_masks/person/field_01_person_1.png,results_read/person/field_01_person_1_appearance_2.png
+read,field_01,action,the woman standing still and smiling,0.9595,0.9793,0.9687,gt_masks/person/field_01_person_1.png,results_read/person/field_01_person_1_action_3.png
+read,field_01,spatial,the background figure on the right side,0.9152,0.9557,0.9729,gt_masks/person/field_01_person_2.png,results_read/person/field_01_person_2_spatial_1.png
+read,field_01,appearance,the woman in beige top and brown pants,0.9158,0.9561,0.9696,gt_masks/person/field_01_person_2.png,results_read/person/field_01_person_2_appearance_2.png
+read,field_01,action,the woman walking across the field,0.9289,0.9631,0.9726,gt_masks/person/field_01_person_2.png,results_read/person/field_01_person_2_action_3.png
+read,field_02,spatial,the central figure facing the camera,0.9671,0.9833,0.9699,gt_masks/person/field_02_person_1.png,results_read/person/field_02_person_1_spatial_1.png
+read,field_02,appearance,the woman in a white button-down shirt,0.9642,0.9818,0.9153,gt_masks/person/field_02_person_1.png,results_read/person/field_02_person_1_appearance_2.png
+read,field_02,action,the woman standing with a neutral expression,0.9687,0.9841,0.923,gt_masks/person/field_02_person_1.png,results_read/person/field_02_person_1_action_3.png
+read,field_02,spatial,the person in the middle ground on the left,0.1831,0.3095,0.4016,gt_masks/person/field_02_person_2.png,results_read/person/field_02_person_2_spatial_1.png
+read,field_02,appearance,the woman with long hair in partial profile,0.0108,0.0214,0.2494,gt_masks/person/field_02_person_2.png,results_read/person/field_02_person_2_appearance_2.png
+read,field_02,action,the woman walking away from the camera,0.023,0.045,0.2622,gt_masks/person/field_02_person_2.png,results_read/person/field_02_person_2_action_3.png
+read,field_03,spatial,the woman in the center of the turf,0.9425,0.9704,0.9632,gt_masks/person/field_03_person_1.png,results_read/person/field_03_person_1_spatial_1.png
+read,field_03,appearance,the woman with long hair flowing down,0.9461,0.9723,0.9667,gt_masks/person/field_03_person_1.png,results_read/person/field_03_person_1_appearance_2.png
+read,field_03,action,the woman shielding her eyes with her hand,0.943,0.9707,0.9628,gt_masks/person/field_03_person_1.png,results_read/person/field_03_person_1_action_3.png
+read,field_05,spatial,the woman on the far-left edge,0.953,0.9759,0.9521,gt_masks/person/field_05_person_3.png,results_read/person/field_05_person_3_spatial_1.png
+read,field_05,appearance,the observer in a light light blue cardigan,0.3603,0.5298,0.2856,gt_masks/person/field_05_person_3.png,results_read/person/field_05_person_3_appearance_2.png
+read,field_05,spatial,the young man in the center-left,0.9499,0.9743,0.9692,gt_masks/person/field_05_person_4.png,results_read/person/field_05_person_4_spatial_1.png
+read,field_05,appearance,the man in a black sweatshirt and jeans,0.9512,0.975,0.9698,gt_masks/person/field_05_person_4.png,results_read/person/field_05_person_4_appearance_2.png
+read,field_05,spatial,the seated woman in the foreground,0.9087,0.9522,0.7753,gt_masks/person/field_05_person_1.png,results_read/person/field_05_person_1_spatial_1.png
+read,field_05,action,the woman making a V sign with her hand,0.6873,0.8147,0.4629,gt_masks/person/field_05_person_1.png,results_read/person/field_05_person_1_action_2.png
+read,field_06,spatial,the woman sitting in the foreground,0.9248,0.9609,0.8601,gt_masks/person/field_06_person_1.png,results_read/person/field_06_person_1_spatial_1.png
+read,field_06,appearance,the woman in white knit and charcoal jeans,0.8558,0.9223,0.5911,gt_masks/person/field_06_person_1.png,results_read/person/field_06_person_1_appearance_2.png
+read,field_06,action,the woman tilting her head with a smile,0.0055,0.0109,0.1524,gt_masks/person/field_06_person_1.png,results_read/person/field_06_person_1_action_3.png
+read,field_06,spatial,the masked figure standing directly behind,0.0,0.0,0.0,gt_masks/person/field_06_person_2.png,results_read/person/field_06_person_2_spatial_1.png
+read,field_06,appearance,the woman in a tan sweatshirt and brown pants,0.9107,0.9532,0.7451,gt_masks/person/field_06_person_2.png,results_read/person/field_06_person_2_appearance_2.png
+read,field_06,action,the woman shielding her forehead,0.9423,0.9703,0.8977,gt_masks/person/field_06_person_2.png,results_read/person/field_06_person_2_action_3.png
+read,field_07,spatial,the figure at the bottom-center,0.9523,0.9756,0.9057,gt_masks/person/field_07_person_1.png,results_read/person/field_07_person_1_spatial_1.png
+read,field_07,appearance,the woman with hair covering her face,0.0428,0.0821,0.3264,gt_masks/person/field_07_person_1.png,results_read/person/field_07_person_1_appearance_2.png
+read,field_07,action,the woman moving her upper body quickly,0.0364,0.0702,0.3363,gt_masks/person/field_07_person_1.png,results_read/person/field_07_person_1_action_3.png
+read,field_07,spatial,the person in the middle ground behind,0.567,0.7237,0.5559,gt_masks/person/field_07_person_2.png,results_read/person/field_07_person_2_spatial_1.png
+read,field_07,appearance,the masked woman in a beige sweatshirt,0.8078,0.8937,0.6024,gt_masks/person/field_07_person_2.png,results_read/person/field_07_person_2_appearance_2.png
+read,field_07,action,the woman in a mock-fighting stance,0.7836,0.8787,0.5958,gt_masks/person/field_07_person_2.png,results_read/person/field_07_person_2_action_3.png
+read,field_08,spatial,"half-visible person at left edge, cropped view.",0.9107,0.9533,0.9057,gt_masks/person/field_08_person_2.png,results_read/person/field_08_person_2_spatial_1.png
+wise,yong_01,appearance,the woman in white clothes and dark pants,0.9909,0.9954,0.9897,gt_masks/person/yong_01_person_1.png,results_wise/person/yong_01_person_1_appearance_1.png
+wise,yong_01,spatial,the foreground human figure,0.991,0.9955,0.9897,gt_masks/person/yong_01_person_1.png,results_wise/person/yong_01_person_1_spatial_2.png
+wise,yong_01,spatial,the foreground woman on the left side,0.991,0.9955,0.9897,gt_masks/person/yong_01_person_1.png,results_wise/person/yong_01_person_1_spatial_3.png
+wise,yong_01,action,the standing woman near the left foreground,0.991,0.9955,0.9902,gt_masks/person/yong_01_person_1.png,results_wise/person/yong_01_person_1_action_4.png
+wise,yong_01,appearance,the background masked woman,0.9763,0.988,0.9876,gt_masks/person/yong_01_person_2.png,results_wise/person/yong_01_person_2_appearance_1.png
+wise,yong_01,spatial,the background human figure,0.9763,0.988,0.9876,gt_masks/person/yong_01_person_2.png,results_wise/person/yong_01_person_2_spatial_2.png
+wise,yong_01,spatial,the background masked woman near the center-right,0.9763,0.988,0.9876,gt_masks/person/yong_01_person_2.png,results_wise/person/yong_01_person_2_spatial_3.png
+wise,yong_01,action,the walking masked woman in the mid-background,0.9763,0.988,0.9876,gt_masks/person/yong_01_person_2.png,results_wise/person/yong_01_person_2_action_4.png
+wise,yong_02,appearance,the woman in white clothes and dark pants,0.9734,0.9865,0.9879,gt_masks/person/yong_02_person_1.png,results_wise/person/yong_02_person_1_appearance_1.png
+wise,yong_02,spatial,the visible human figure,0.9734,0.9865,0.9878,gt_masks/person/yong_02_person_1.png,results_wise/person/yong_02_person_1_spatial_2.png
+wise,yong_02,action,the woman walking in side view,0.9734,0.9865,0.9878,gt_masks/person/yong_02_person_1.png,results_wise/person/yong_02_person_1_action_3.png
+wise,yong_02,action,the walking woman facing right,0.9734,0.9865,0.9879,gt_masks/person/yong_02_person_1.png,results_wise/person/yong_02_person_1_action_4.png
+wise,yong_03,appearance,the woman in white clothes and dark pants,0.985,0.9925,0.9845,gt_masks/person/yong_03_person_1.png,results_wise/person/yong_03_person_1_appearance_1.png
+wise,yong_03,spatial,the visible human figure,0.9849,0.9924,0.9843,gt_masks/person/yong_03_person_1.png,results_wise/person/yong_03_person_1_spatial_2.png
+wise,yong_03,action,the foreground woman making a peace sign,0.9851,0.9925,0.9844,gt_masks/person/yong_03_person_1.png,results_wise/person/yong_03_person_1_action_3.png
+wise,yong_03,action,the woman posing near the left side,0.9849,0.9924,0.9839,gt_masks/person/yong_03_person_1.png,results_wise/person/yong_03_person_1_action_4.png
+wise,yong_04,appearance,the woman in white clothes and dark pants,0.9793,0.9896,0.9755,gt_masks/person/yong_04_person_1.png,results_wise/person/yong_04_person_1_appearance_1.png
+wise,yong_04,spatial,the foreground human figure,0.9792,0.9895,0.975,gt_masks/person/yong_04_person_1.png,results_wise/person/yong_04_person_1_spatial_2.png
+wise,yong_04,action,the foreground woman making a peace sign on the left,0.9791,0.9894,0.9752,gt_masks/person/yong_04_person_1.png,results_wise/person/yong_04_person_1_action_3.png
+wise,yong_04,action,the posed woman near the left foreground,0.979,0.9894,0.9751,gt_masks/person/yong_04_person_1.png,results_wise/person/yong_04_person_1_action_4.png
+wise,yong_04,appearance,the background masked woman,0.9784,0.9891,0.9899,gt_masks/person/yong_04_person_2.png,results_wise/person/yong_04_person_2_appearance_1.png
+wise,yong_04,spatial,the middle human figure,0.9785,0.9891,0.99,gt_masks/person/yong_04_person_2.png,results_wise/person/yong_04_person_2_spatial_2.png
+wise,yong_04,action,the walking masked woman near the center,0.9787,0.9892,0.99,gt_masks/person/yong_04_person_2.png,results_wise/person/yong_04_person_2_action_3.png
+wise,yong_04,action,the center walking woman,0.9784,0.9891,0.99,gt_masks/person/yong_04_person_2.png,results_wise/person/yong_04_person_2_action_4.png
+wise,yong_04,action,the walking man on the right side,0.9833,0.9916,0.9932,gt_masks/person/yong_04_person_3.png,results_wise/person/yong_04_person_3_action_1.png
+wise,yong_04,spatial,the right-side human figure,0.9833,0.9916,0.9932,gt_masks/person/yong_04_person_3.png,results_wise/person/yong_04_person_3_spatial_2.png
+wise,yong_05,appearance,the woman in white clothes and dark pants,0.0,0.0,0.0,gt_masks/person/yong_05_person_1.png,results_wise/person/yong_05_person_1_appearance_1.png
+wise,yong_05,spatial,the cropped human figure,0.0,0.0,0.0,gt_masks/person/yong_05_person_1.png,results_wise/person/yong_05_person_1_spatial_2.png
+wise,yong_05,spatial,the partially visible woman at the far left edge,0.9714,0.9855,0.9935,gt_masks/person/yong_05_person_2.png,results_wise/person/yong_05_person_2_spatial_1.png
+wise,yong_05,spatial,the cropped woman on the left border,0.9714,0.9855,0.9935,gt_masks/person/yong_05_person_2.png,results_wise/person/yong_05_person_2_spatial_2.png
+wise,yong_06,appearance,the walking man in a black top and light blue jeans,0.958,0.9785,0.9735,gt_masks/person/yong_06_person_5.png,results_wise/person/yong_06_person_5_appearance_1.png
+wise,yong_06,appearance,the visible male figure,0.9574,0.9782,0.9729,gt_masks/person/yong_06_person_5.png,results_wise/person/yong_06_person_5_appearance_2.png
+wise,yong_06,action,the man walking toward the right side,0.9565,0.9778,0.9725,gt_masks/person/yong_06_person_5.png,results_wise/person/yong_06_person_5_action_3.png
+wise,yong_06,spatial,the man near the left-center area,0.9566,0.9778,0.9725,gt_masks/person/yong_06_person_5.png,results_wise/person/yong_06_person_5_spatial_4.png
+wise,yong_06,spatial,the partially visible person at the far left edge,0.9702,0.9849,0.9841,gt_masks/person/yong_06_person_4.png,results_wise/person/yong_06_person_4_spatial_1.png
+wise,yong_06,spatial,the cropped person on the left border,0.9707,0.9851,0.984,gt_masks/person/yong_06_person_4.png,results_wise/person/yong_06_person_4_spatial_2.png
+wise,yong_06,spatial,the partially visible woman at the far left edge,0.9705,0.985,0.9852,gt_masks/person/yong_06_person_4.png,results_wise/person/yong_06_person_4_spatial_3.png
+wise,yong_06,spatial,the cropped woman on the left border,0.9706,0.9851,0.9841,gt_masks/person/yong_06_person_4.png,results_wise/person/yong_06_person_4_spatial_4.png
+wise,yong_07,appearance,the woman in white clothes and dark pants,0.9717,0.9857,0.9824,gt_masks/person/yong_07_person_1.png,results_wise/person/yong_07_person_1_appearance_1.png
+wise,yong_07,spatial,the partially visible woman at the far left edge,0.9716,0.9856,0.9721,gt_masks/person/yong_07_person_1.png,results_wise/person/yong_07_person_1_spatial_2.png
+wise,yong_07,spatial,the cropped woman on the left border,0.9718,0.9857,0.9721,gt_masks/person/yong_07_person_1.png,results_wise/person/yong_07_person_1_spatial_3.png
+wise,road_01,appearance,the woman in white clothes and dark pants,0.9726,0.9861,0.9838,gt_masks/person/road_01_person_1.png,results_wise/person/road_01_person_1_appearance_1.png
+wise,road_01,action,the woman raising both arms to make a V pose,0.9721,0.9858,0.9846,gt_masks/person/road_01_person_1.png,results_wise/person/road_01_person_1_action_2.png
+wise,road_01,spatial,the front-facing woman,0.9728,0.9862,0.9838,gt_masks/person/road_01_person_1.png,results_wise/person/road_01_person_1_spatial_3.png
+wise,road_02,appearance,the woman in white clothes and dark pants,0.9764,0.9881,0.9858,gt_masks/person/road_02_person_1.png,results_wise/person/road_02_person_1_appearance_1.png
+wise,road_02,action,the woman standing and making a V pose with both arms,0.9762,0.988,0.9857,gt_masks/person/road_02_person_1.png,results_wise/person/road_02_person_1_action_2.png
+wise,road_02,appearance,the person with messy black hair wearing a black long-sleeve top and light blue jeans,0.9701,0.9848,0.9918,gt_masks/person/road_02_person_2.png,results_wise/person/road_02_person_2_appearance_1.png
+wise,road_02,spatial,the person on the left side of the center line with their back to the camera,0.9701,0.9848,0.9917,gt_masks/person/road_02_person_2.png,results_wise/person/road_02_person_2_spatial_2.png
+wise,road_02,action,the person walking or running away,0.9701,0.9848,0.9917,gt_masks/person/road_02_person_2.png,results_wise/person/road_02_person_2_action_3.png
+wise,road_03,appearance,the woman in white clothes and dark pants,0.9694,0.9845,0.9828,gt_masks/person/road_03_person_1.png,results_wise/person/road_03_person_1_appearance_1.png
+wise,road_03,action,the smiling woman making a V pose with her right arm raised highest,0.9695,0.9845,0.983,gt_masks/person/road_03_person_1.png,results_wise/person/road_03_person_1_action_2.png
+wise,road_03,spatial,the woman slightly turned to the front,0.9693,0.9844,0.9831,gt_masks/person/road_03_person_1.png,results_wise/person/road_03_person_1_spatial_3.png
+wise,road_03,appearance,the person wearing a black long-sleeve top and light blue jeans,0.9701,0.9848,0.9918,gt_masks/person/road_03_person_2.png,results_wise/person/road_03_person_2_appearance_1.png
+wise,road_03,spatial,the person far away on the left side of the center line,0.9701,0.9848,0.9918,gt_masks/person/road_03_person_2.png,results_wise/person/road_03_person_2_spatial_2.png
+wise,road_03,action,the person walking towards the camera,0.0,0.0,0.0,gt_masks/person/road_03_person_2.png,results_wise/person/road_03_person_2_action_3.png
+wise,road_04,appearance,the woman in white clothes and dark pants,0.9785,0.9891,0.9884,gt_masks/person/road_04_person_1.png,results_wise/person/road_04_person_1_appearance_1.png
+wise,road_04,action,the woman with her left arm slightly bent,0.9778,0.9888,0.9883,gt_masks/person/road_04_person_1.png,results_wise/person/road_04_person_1_action_2.png
+wise,road_04,spatial,the woman turned towards the back-left showing her side and back,0.9786,0.9892,0.9886,gt_masks/person/road_04_person_1.png,results_wise/person/road_04_person_1_spatial_3.png
+wise,road_04,appearance,the person with dark hair wearing a light long-sleeve top and loose dark pants,0.0,0.0,0.0,gt_masks/person/road_04_person_3.png,results_wise/person/road_04_person_3_appearance_1.png
+wise,road_04,spatial,the person on the left side of the center line with their back to the camera,0.9557,0.9773,0.9754,gt_masks/person/road_04_person_3.png,results_wise/person/road_04_person_3_spatial_2.png
+wise,road_04,action,the person running forward,0.9555,0.9772,0.9753,gt_masks/person/road_04_person_3.png,results_wise/person/road_04_person_3_action_3.png
+wise,road_04,appearance,the person in a black long-sleeve top and light blue jeans,0.9735,0.9865,0.9939,gt_masks/person/road_04_person_2.png,results_wise/person/road_04_person_2_appearance_1.png
+wise,road_04,spatial,the person on the right edge near the bushes,0.9736,0.9866,0.994,gt_masks/person/road_04_person_2.png,results_wise/person/road_04_person_2_spatial_2.png
+wise,road_04,action,the person walking inwards in side view,0.0,0.0,0.0,gt_masks/person/road_04_person_2.png,results_wise/person/road_04_person_2_action_3.png
+wise,road_05,appearance,the woman in white clothes and dark pants,0.0,0.0,0.0,gt_masks/person/road_05_person_1.png,results_wise/person/road_05_person_1_appearance_1.png
+wise,road_05,action,the smiling woman raising one hand above her head,0.9615,0.9804,0.9838,gt_masks/person/road_05_person_1.png,results_wise/person/road_05_person_1_action_2.png
+wise,road_05,spatial,the woman facing the camera,0.9614,0.9803,0.9836,gt_masks/person/road_05_person_1.png,results_wise/person/road_05_person_1_spatial_3.png
+wise,road_05,appearance,"the person with dark hair wearing a light long-sleeve top, loose dark pants, and a mask",0.9707,0.9851,0.9936,gt_masks/person/road_05_person_3.png,results_wise/person/road_05_person_3_appearance_1.png
+wise,road_05,action,the person lightly running or walking towards the camera,0.9709,0.9852,0.9936,gt_masks/person/road_05_person_3.png,results_wise/person/road_05_person_3_action_2.png
+wise,road_06,appearance,the woman in white clothes and dark pants,0.9753,0.9875,0.9845,gt_masks/person/road_06_person_1.png,results_wise/person/road_06_person_1_appearance_1.png
+wise,road_06,action,the woman looking up at the trees and sky with both arms down,0.9755,0.9876,0.9846,gt_masks/person/road_06_person_1.png,results_wise/person/road_06_person_1_action_2.png
+wise,road_06,appearance,the person wearing brown pants,0.9792,0.9895,0.9886,gt_masks/person/road_06_person_3.png,results_wise/person/road_06_person_3_appearance_1.png
+wise,road_06,spatial,the partially visible person at the far left edge,0.6025,0.752,0.7785,gt_masks/person/road_06_person_3.png,results_wise/person/road_06_person_3_spatial_2.png
+wise,road_06,appearance,the person wearing a dark top and light pants,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,results_wise/person/road_06_person_2_appearance_1.png
+wise,road_06,action,the person walking along the road,0.0,0.0,0.0,gt_masks/person/road_06_person_2.png,results_wise/person/road_06_person_2_action_2.png
+wise,road_07,appearance,the woman in white clothes and dark pants,0.0,0.0,0.0,gt_masks/person/road_07_person_1.png,results_wise/person/road_07_person_1_appearance_1.png
+wise,road_07,action,the front-facing woman with arms spread wide to the sides,0.9693,0.9844,0.9867,gt_masks/person/road_07_person_1.png,results_wise/person/road_07_person_1_action_2.png
+wise,road_07,appearance,"the person wearing a light shirt, dark pants, and a black bag",0.8163,0.8989,0.9565,gt_masks/person/road_07_person_4.png,results_wise/person/road_07_person_4_appearance_1.png
+wise,road_07,spatial,the person with their back to the camera,0.8147,0.8979,0.9566,gt_masks/person/road_07_person_4.png,results_wise/person/road_07_person_4_spatial_2.png
+wise,road_07,action,the person walking away,0.8172,0.8994,0.9567,gt_masks/person/road_07_person_4.png,results_wise/person/road_07_person_4_action_3.png
+wise,road_07,appearance,the person wearing a dark top and dark bottom,0.0,0.0,0.0302,gt_masks/person/road_07_person_5.png,results_wise/person/road_07_person_5_appearance_1.png
+wise,road_07,spatial,the person in back view,0.0,0.0,0.0303,gt_masks/person/road_07_person_5.png,results_wise/person/road_07_person_5_spatial_2.png
+wise,road_07,action,the person walking away from the camera,0.0,0.0,0.0303,gt_masks/person/road_07_person_5.png,results_wise/person/road_07_person_5_action_3.png
+wise,road_08,appearance,the woman in white clothes and dark pants,0.0,0.0,0.0,gt_masks/person/road_08_person_1.png,results_wise/person/road_08_person_1_appearance_1.png
+wise,road_08,action,the front-facing woman raising her left hand to flip her hair,0.9777,0.9887,0.9816,gt_masks/person/road_08_person_1.png,results_wise/person/road_08_person_1_action_2.png
+wise,road_08,spatial,the person in back view,0.6557,0.7921,0.5859,gt_masks/person/road_08_person_4.png,results_wise/person/road_08_person_4_spatial_1.png
+wise,road_08,action,the person walking away along the road,0.0126,0.0248,0.1947,gt_masks/person/road_08_person_4.png,results_wise/person/road_08_person_4_action_2.png
+wise,road_08,appearance,the person wearing a light top and dark bottom,0.0,0.0,0.0556,gt_masks/person/road_08_person_4.png,results_wise/person/road_08_person_4_appearance_3.png
+wise,road_08,spatial,the person in back view,0.6557,0.7921,0.5859,gt_masks/person/road_08_person_4.png,results_wise/person/road_08_person_4_spatial_4.png
+wise,road_08,action,the person walking away,0.012,0.0237,0.2106,gt_masks/person/road_08_person_4.png,results_wise/person/road_08_person_4_action_5.png
+wise,road_09,spatial,the person in back view,0.343,0.5108,0.4481,gt_masks/person/road_09_person_4.png,results_wise/person/road_09_person_4_spatial_1.png
+wise,road_09,action,the person walking away,0.3428,0.5106,0.448,gt_masks/person/road_09_person_4.png,results_wise/person/road_09_person_4_action_2.png
+wise,road_09,spatial,the farthest person in back view,0.3443,0.5122,0.4482,gt_masks/person/road_09_person_4.png,results_wise/person/road_09_person_4_spatial_3.png
+wise,road_09,action,the person walking away along the road,0.6007,0.7505,0.5869,gt_masks/person/road_09_person_4.png,results_wise/person/road_09_person_4_action_4.png
+wise,road_10,appearance,the motorcyclist with a delivery box,0.2089,0.3456,0.4221,gt_masks/person/road_10_person_6.png,results_wise/person/road_10_person_6_appearance_1.png
+wise,road_10,spatial,the motorcyclist on the center-left,0.2078,0.3441,0.4213,gt_masks/person/road_10_person_6.png,results_wise/person/road_10_person_6_spatial_2.png
+wise,road_10,action,the motorcyclist riding downhill,0.9795,0.9896,0.9416,gt_masks/person/road_10_person_6.png,results_wise/person/road_10_person_6_action_3.png
+wise,road_10,spatial,the person far away in back view,0.9245,0.9607,0.9801,gt_masks/person/road_10_person_5.png,results_wise/person/road_10_person_5_spatial_1.png
+wise,road_11,appearance,the motorcyclist with a delivery box,0.9642,0.9818,0.9775,gt_masks/person/road_11_person_6.png,results_wise/person/road_11_person_6_appearance_1.png
+wise,road_11,spatial,the motorcyclist in the center of the road,0.9659,0.9827,0.978,gt_masks/person/road_11_person_6.png,results_wise/person/road_11_person_6_spatial_2.png
+wise,road_11,action,the motorcyclist riding downhill,0.966,0.9827,0.9796,gt_masks/person/road_11_person_6.png,results_wise/person/road_11_person_6_action_3.png
+wise,road_12,spatial,the person in back view,0.9727,0.9862,0.9857,gt_masks/person/road_12_person_7.png,results_wise/person/road_12_person_7_spatial_1.png
+wise,road_12,action,the walking person,0.9727,0.9862,0.9857,gt_masks/person/road_12_person_7.png,results_wise/person/road_12_person_7_action_2.png
+wise,statue_01,action,the person making V-sign hand gestures,0.9759,0.9878,0.9782,gt_masks/person/statue_01_person_1.png,results_wise/person/statue_01_person_1_action_1.png
+wise,statue_01,appearance,the person wearing a white long-sleeved cardigan,0.9759,0.9878,0.9784,gt_masks/person/statue_01_person_1.png,results_wise/person/statue_01_person_1_appearance_2.png
+wise,statue_01,spatial,the person in a full-body standing posture,0.976,0.9878,0.9785,gt_masks/person/statue_01_person_1.png,results_wise/person/statue_01_person_1_spatial_3.png
+wise,statue_02,appearance,the person with long straight black hair,0.9722,0.9859,0.9729,gt_masks/person/statue_02_person_1.png,results_wise/person/statue_02_person_1_appearance_1.png
+wise,statue_02,action,the person making dual V-sign hand gestures,0.9724,0.986,0.9734,gt_masks/person/statue_02_person_1.png,results_wise/person/statue_02_person_1_action_2.png
+wise,statue_02,appearance,the person with short black hair,0.9817,0.9907,0.9881,gt_masks/person/statue_02_person_2.png,results_wise/person/statue_02_person_2_appearance_1.png
+wise,statue_02,appearance,the person wearing a black long-sleeved sweater,0.9822,0.991,0.989,gt_masks/person/statue_02_person_2.png,results_wise/person/statue_02_person_2_appearance_2.png
+wise,statue_03,appearance,the person with long straight black hair,0.9736,0.9866,0.9659,gt_masks/person/statue_03_person_1.png,results_wise/person/statue_03_person_1_appearance_1.png
+wise,statue_03,action,the person making dual V-sign hand gestures,0.9736,0.9866,0.9657,gt_masks/person/statue_03_person_1.png,results_wise/person/statue_03_person_1_action_2.png
+wise,statue_03,appearance,a partial limb and foot wearing a white sneaker,0.9429,0.9706,0.972,gt_masks/person/statue_03_person_2.png,results_wise/person/statue_03_person_2_appearance_1.png
+wise,statue_04,action,the person making V-sign hand gestures,0.9712,0.9854,0.9758,gt_masks/person/statue_04_person_1.png,results_wise/person/statue_04_person_1_action_1.png
+wise,statue_04,appearance,the person wearing a white long-sleeved cardigan,0.9712,0.9854,0.9758,gt_masks/person/statue_04_person_1.png,results_wise/person/statue_04_person_1_appearance_2.png
+wise,statue_04,spatial,the person with long brown hair seen from the back,0.9869,0.9934,0.9757,gt_masks/person/statue_04_person_3.png,results_wise/person/statue_04_person_3_spatial_1.png
+wise,statue_04,appearance,the person wearing a beige or light pink long-sleeved top,0.9868,0.9934,0.9758,gt_masks/person/statue_04_person_3.png,results_wise/person/statue_04_person_3_appearance_2.png
+wise,statue_05,spatial,the partially occluded person,0.0303,0.0588,0.4331,gt_masks/person/statue_05_person_3.png,results_wise/person/statue_05_person_3_spatial_1.png
+wise,statue_05,spatial,the person with long brown hair visible behind the main subject's head,0.7362,0.848,0.7331,gt_masks/person/statue_05_person_3.png,results_wise/person/statue_05_person_3_spatial_2.png
+wise,statue_06,appearance,close-up hand segments are blurring into the lens,0.8959,0.9451,0.9266,gt_masks/person/statue_06_person_4.png,results_wise/person/statue_06_person_4_appearance_1.png
+wise,statue_06,spatial,a finger on the left side of the screen,0.8995,0.9471,0.9288,gt_masks/person/statue_06_person_4.png,results_wise/person/statue_06_person_4_spatial_2.png
+wise,statue_07,spatial,the person in a full-body standing posture,0.9674,0.9834,0.9523,gt_masks/person/statue_07_person_1.png,results_wise/person/statue_07_person_1_spatial_1.png
+wise,statue_07,action,the young woman holding a smartphone in her right hand,0.9713,0.9854,0.9431,gt_masks/person/statue_07_person_1.png,results_wise/person/statue_07_person_1_action_2.png
+wise,statue_07,appearance,the woman wearing a white long-sleeved cardigan,0.9676,0.9835,0.9526,gt_masks/person/statue_07_person_1.png,results_wise/person/statue_07_person_1_appearance_3.png
+wise,statue_07,appearance,a blurry skin-toned artifact in the upper-left corner,0.9423,0.9703,0.8655,gt_masks/person/statue_07_person_4.png,results_wise/person/statue_07_person_4_appearance_1.png
+wise,statue_07,spatial,out-of-focus fingertip or hand segment is encroaching from the top-left edge,0.9418,0.97,0.8632,gt_masks/person/statue_07_person_4.png,results_wise/person/statue_07_person_4_spatial_2.png
+wise,statue_08,action,the young woman holding a smartphone in her right hand,0.9672,0.9833,0.9587,gt_masks/person/statue_08_person_1.png,results_wise/person/statue_08_person_1_action_1.png
+wise,statue_08,appearance,the woman wearing a white long-sleeved cardigan,0.9672,0.9833,0.9587,gt_masks/person/statue_08_person_1.png,results_wise/person/statue_08_person_1_appearance_2.png
+wise,statue_09,spatial,the woman in an upper body shot,0.9708,0.9852,0.8786,gt_masks/person/statue_09_person_1.png,results_wise/person/statue_09_person_1_spatial_1.png
+wise,statue_09,appearance,the woman with long straight black hair,0.9718,0.9857,0.8875,gt_masks/person/statue_09_person_1.png,results_wise/person/statue_09_person_1_appearance_2.png
+wise,statue_09,appearance,the woman wearing a white long-sleeved cardigan,0.9688,0.9841,0.8607,gt_masks/person/statue_09_person_1.png,results_wise/person/statue_09_person_1_appearance_3.png
+wise,statue_10,spatial,"the woman in a full-body shot, positioned in the lower-left foreground",0.9777,0.9887,0.9831,gt_masks/person/statue_10_person_1.png,results_wise/person/statue_10_person_1_spatial_1.png
+wise,statue_10,appearance,the woman with long straight black hair,0.9774,0.9886,0.9829,gt_masks/person/statue_10_person_1.png,results_wise/person/statue_10_person_1_appearance_2.png
+wise,statue_10,appearance,the woman wearing a white long-sleeved cardigan,0.9777,0.9887,0.9831,gt_masks/person/statue_10_person_1.png,results_wise/person/statue_10_person_1_appearance_3.png
+wise,statue_10,spatial,"the woman standing on a wide, light-colored tiled plaza",0.9779,0.9888,0.9831,gt_masks/person/statue_10_person_1.png,results_wise/person/statue_10_person_1_spatial_4.png
+wise,field_01,spatial,the woman in the central foreground,0.9794,0.9896,0.9881,gt_masks/person/field_01_person_1.png,results_wise/person/field_01_person_1_spatial_1.png
+wise,field_01,appearance,the woman in white top and grey flare jeans,0.9791,0.9894,0.9874,gt_masks/person/field_01_person_1.png,results_wise/person/field_01_person_1_appearance_2.png
+wise,field_01,action,the woman standing still and smiling,0.9791,0.9894,0.9879,gt_masks/person/field_01_person_1.png,results_wise/person/field_01_person_1_action_3.png
+wise,field_01,spatial,the background figure on the right side,0.9618,0.9805,0.9888,gt_masks/person/field_01_person_2.png,results_wise/person/field_01_person_2_spatial_1.png
+wise,field_01,appearance,the woman in beige top and brown pants,0.9617,0.9805,0.9894,gt_masks/person/field_01_person_2.png,results_wise/person/field_01_person_2_appearance_2.png
+wise,field_01,action,the woman walking across the field,0.0,0.0,0.0,gt_masks/person/field_01_person_2.png,results_wise/person/field_01_person_2_action_3.png
+wise,field_02,spatial,the central figure facing the camera,0.9822,0.991,0.9856,gt_masks/person/field_02_person_1.png,results_wise/person/field_02_person_1_spatial_1.png
+wise,field_02,appearance,the woman in a white button-down shirt,0.9818,0.9908,0.9855,gt_masks/person/field_02_person_1.png,results_wise/person/field_02_person_1_appearance_2.png
+wise,field_02,action,the woman standing with a neutral expression,0.9821,0.991,0.9856,gt_masks/person/field_02_person_1.png,results_wise/person/field_02_person_1_action_3.png
+wise,field_02,spatial,the person in the middle ground on the left,0.9441,0.9712,0.9812,gt_masks/person/field_02_person_2.png,results_wise/person/field_02_person_2_spatial_1.png
+wise,field_02,appearance,the woman with long hair in partial profile,0.944,0.9712,0.9799,gt_masks/person/field_02_person_2.png,results_wise/person/field_02_person_2_appearance_2.png
+wise,field_02,action,the woman walking away from the camera,0.9443,0.9713,0.9811,gt_masks/person/field_02_person_2.png,results_wise/person/field_02_person_2_action_3.png
+wise,field_03,spatial,the woman in the center of the turf,0.9755,0.9876,0.9795,gt_masks/person/field_03_person_1.png,results_wise/person/field_03_person_1_spatial_1.png
+wise,field_03,appearance,the woman with long hair flowing down,0.9738,0.9867,0.9775,gt_masks/person/field_03_person_1.png,results_wise/person/field_03_person_1_appearance_2.png
+wise,field_03,action,the woman shielding her eyes with her hand,0.9741,0.9869,0.9775,gt_masks/person/field_03_person_1.png,results_wise/person/field_03_person_1_action_3.png
+wise,field_05,spatial,the woman on the far-left edge,0.978,0.9889,0.9587,gt_masks/person/field_05_person_3.png,results_wise/person/field_05_person_3_spatial_1.png
+wise,field_05,appearance,the observer in a light light blue cardigan,0.9772,0.9884,0.9581,gt_masks/person/field_05_person_3.png,results_wise/person/field_05_person_3_appearance_2.png
+wise,field_05,spatial,the young man in the center-left,0.9812,0.9905,0.9511,gt_masks/person/field_05_person_4.png,results_wise/person/field_05_person_4_spatial_1.png
+wise,field_05,appearance,the man in a black sweatshirt and jeans,0.9811,0.9905,0.9512,gt_masks/person/field_05_person_4.png,results_wise/person/field_05_person_4_appearance_2.png
+wise,field_05,spatial,the seated woman in the foreground,0.9779,0.9888,0.9798,gt_masks/person/field_05_person_1.png,results_wise/person/field_05_person_1_spatial_1.png
+wise,field_05,action,the woman making a V sign with her hand,0.9775,0.9886,0.9796,gt_masks/person/field_05_person_1.png,results_wise/person/field_05_person_1_action_2.png
+wise,field_06,spatial,the woman sitting in the foreground,0.9871,0.9935,0.9889,gt_masks/person/field_06_person_1.png,results_wise/person/field_06_person_1_spatial_1.png
+wise,field_06,appearance,the woman in white knit and charcoal jeans,0.9874,0.9937,0.9888,gt_masks/person/field_06_person_1.png,results_wise/person/field_06_person_1_appearance_2.png
+wise,field_06,action,the woman tilting her head with a smile,0.9871,0.9935,0.9882,gt_masks/person/field_06_person_1.png,results_wise/person/field_06_person_1_action_3.png
+wise,field_06,spatial,the masked figure standing directly behind,0.9594,0.9793,0.9685,gt_masks/person/field_06_person_2.png,results_wise/person/field_06_person_2_spatial_1.png
+wise,field_06,appearance,the woman in a tan sweatshirt and brown pants,0.9591,0.9791,0.9684,gt_masks/person/field_06_person_2.png,results_wise/person/field_06_person_2_appearance_2.png
+wise,field_06,action,the woman shielding her forehead,0.9597,0.9794,0.9683,gt_masks/person/field_06_person_2.png,results_wise/person/field_06_person_2_action_3.png
+wise,field_07,spatial,the figure at the bottom-center,0.6785,0.8084,0.6117,gt_masks/person/field_07_person_1.png,results_wise/person/field_07_person_1_spatial_1.png
+wise,field_07,appearance,the woman with hair covering her face,0.0005,0.001,0.1976,gt_masks/person/field_07_person_1.png,results_wise/person/field_07_person_1_appearance_2.png
+wise,field_07,action,the woman moving her upper body quickly,0.0008,0.0015,0.1981,gt_masks/person/field_07_person_1.png,results_wise/person/field_07_person_1_action_3.png
+wise,field_07,spatial,the person in the middle ground behind,0.0,0.0,0.0227,gt_masks/person/field_07_person_2.png,results_wise/person/field_07_person_2_spatial_1.png
+wise,field_07,appearance,the masked woman in a beige sweatshirt,0.9489,0.9738,0.955,gt_masks/person/field_07_person_2.png,results_wise/person/field_07_person_2_appearance_2.png
+wise,field_07,action,the woman in a mock-fighting stance,0.9497,0.9742,0.9555,gt_masks/person/field_07_person_2.png,results_wise/person/field_07_person_2_action_3.png
+wise,field_08,spatial,"half-visible person at left edge, cropped view.",0.9333,0.9655,0.949,gt_masks/person/field_08_person_2.png,results_wise/person/field_08_person_2_spatial_1.png

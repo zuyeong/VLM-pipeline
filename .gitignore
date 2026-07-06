@@ -8,3 +8,4 @@ logs/
 __pycache__/
 *.log
 *.pyc
+segment_evaluation/dataset/raw_dataset/raw_video/*.MOV
